@@ -14,6 +14,6 @@ tee - outputs & save
 output=`./$1`
 echo "$output" | tee output.log 
 
-git add .
+git add output.log
 git add ../../
 git commit -am 'Update repo' > /dev/null
