@@ -1,6 +1,4 @@
-?? main/basics/removing_files/a.txt
-A  main/basics/removing_files/a.txt
-On branch main
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	new file:   a.txt
+ M main/basics/removing_files/removing_files.sh
+ M main/basics/removing_files/removing_files.sh
+D  main/basics/removing_files/a.txt
+ M main/basics/removing_files/removing_files.sh
