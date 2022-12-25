@@ -1,24 +1,21 @@
 touch
-	 M main/basics/removing_files/removing_files.sh
-	?? main/basics/removing_files/a.tmp
 
 git add
 git rm --cached
-	 M main/basics/removing_files/removing_files.sh
+	D  main/basics/removing_files/a.tmp
 	?? main/basics/removing_files/a.tmp
 
 git add
 git rm -f
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   removing_files.sh
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+		deleted:    a.tmp
 	
-	no changes added to commit (use "git add" and/or "git commit -a")
 
-[main bdd1ec8] m
- 1 file changed, 4 insertions(+)
+[main c07918c] m
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 main/basics/removing_files/a.tmp
 touch
 	?? main/basics/removing_files/a.tmp
 
