@@ -1,18 +1,16 @@
 touch
-	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   removing_files.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	 D main/basics/removing_files/output.log
+	 M main/basics/removing_files/removing_files.sh
 git add
+	 D main/basics/removing_files/output.log
 	 M main/basics/removing_files/removing_files.sh
 git rm --cached
 	D  main/basics/removing_files/a.txt
+	 D main/basics/removing_files/output.log
 	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.txt
 git rm -f
 	D  main/basics/removing_files/a.txt
+	 D main/basics/removing_files/output.log
 	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.txt
