@@ -1,12 +1,8 @@
 touch
-	 M main/basics/removing_files/removing_files.sh
 git add
-	 M main/basics/removing_files/removing_files.sh
 git rm --cached
 	D  main/basics/removing_files/a.txt
-	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.txt
 git rm -f
 	D  main/basics/removing_files/a.txt
-	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.txt
