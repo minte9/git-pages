@@ -1,4 +1,3 @@
- M main/basics/removing_files/removing_files.sh
- M main/basics/removing_files/removing_files.sh
-D  main/basics/removing_files/a.txt
- M main/basics/removing_files/removing_files.sh
+?? main/basics/removing_files/a.txt
+A  main/basics/removing_files/a.txt
+A  main/basics/removing_files/a.txt
