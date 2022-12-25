@@ -13,4 +13,4 @@ alias gs="git status | sed 's/^/\t/'; echo"
 
 touch a.txt ; gsp
 git add a.txt ; gsp
-git rm -f a.txt ; gs
+git rm -f a.txt > /dev/null ; gs
