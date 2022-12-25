@@ -14,4 +14,5 @@ alias gs="git status | sed 's/^/\t/'"
 touch myfile                  ; echo 'touch'  ; gsp
 git add myfile                ; echo 'git add'  ; gsp
 git rm --cached myfile > /dev/null        ; echo 'git rm --cached' ; gsp 
+git add myfile                ; echo 'git add'  ; gsp
 git rm -f myfile > /dev/null        ; echo 'git rm -f' ; gsp
