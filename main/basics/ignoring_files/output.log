@@ -1,32 +1,19 @@
 touch / Working tree:
-	 M main/output.sh
 	?? main/basics/ignoring_files/a.txt
 	?? main/basics/ignoring_files/b.tmp
 
 .gitignore / Working tree:
-	 M main/output.sh
 	?? main/basics/ignoring_files/.gitignore
 	?? main/basics/ignoring_files/a.txt
 
 git commit / Repository:
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   ../../output.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
 
 git rm / Repository:
 	D  main/basics/ignoring_files/.gitignore
 	D  main/basics/ignoring_files/a.txt
-	 M main/output.sh
 
 git commit / Repository:
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   ../../output.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
