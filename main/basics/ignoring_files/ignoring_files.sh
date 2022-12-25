@@ -13,21 +13,17 @@ touch b.tmp
     gsp
 
 echo "*.tmp" > .gitignore # Look Here
-    echo ".gitignore / Working tree:"
-    gsp
+    echo ".gitignore / Working tree:"   ; gsp
 
 git add .
 git commit -m 'm' > /dev/null
-    echo "git commit / Repository:"
-    gs
+    echo "git commit / Repository:"     ; gs
 
 git rm .gitignore > /dev/null
 git rm a.txt > /dev/null
 rm b.tmp
-    echo "git rm / Repository:"
-    gsp
+    echo "git rm / Repository:"         ; gsp
 
 git add .
 git commit -m 'm' > /dev/null
-    echo "git commit / Repository:"
-    gs
+    echo "git commit / Repository:"     ; gs
