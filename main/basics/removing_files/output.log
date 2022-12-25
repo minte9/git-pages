@@ -1,13 +1,18 @@
 touch
+	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.tmp
 
 git add
 git rm --cached
+	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.tmp
 
 git add
-	A  main/basics/removing_files/a.tmp
-
 git rm -f
 	On branch main
-	nothing to commit, working tree clean
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   removing_files.sh
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
