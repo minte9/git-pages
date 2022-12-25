@@ -12,7 +12,7 @@ touch b.tmp
     echo "touch / Working tree:"
     gsp
 
-echo "*.tmp" > .gitignore
+echo "*.tmp" > .gitignore # Look Here
     echo ".gitignore / Working tree:"
     gsp
 
