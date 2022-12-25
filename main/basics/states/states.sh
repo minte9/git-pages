@@ -15,7 +15,7 @@ alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
 alias gs="git status | sed 's/^/\t/'; echo"
 
 touch myfile.tmp
-    echo "touch / Working tree:" gsp
+    echo "touch / Working tree:" ; gsp
 
 git add . # Look Here
     echo "git add . / Staging area:"
