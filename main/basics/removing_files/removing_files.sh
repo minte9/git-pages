@@ -11,7 +11,7 @@ Alternatively, you can use reset to untrack files
 alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
 alias gs="git status | sed 's/^/\t/' ; echo"
 
-touch a.tmp                         ; echo 'touch'           ; gs
+touch a.tmp                         ; echo 'touch'           ; gsp
 git add a.tmp                       ; echo 'git add'         ; gsp
 git rm --cached a.tmp > /dev/null   ; echo 'git rm --cached' ; gsp 
 git add a.tmp                       ; echo 'git add'         ; gsp
