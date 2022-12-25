@@ -1,9 +1,3 @@
 touch / Working tree:
-	 M main/basics/ignoring_files/ignoring_files.sh
-	?? main/basics/ignoring_files/a.txt
-	?? main/basics/ignoring_files/b.tmp
 
 .gitignore / Working tree:
-	 M main/basics/ignoring_files/ignoring_files.sh
-	?? main/basics/ignoring_files/.gitignore
-	?? main/basics/ignoring_files/a.txt
