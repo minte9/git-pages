@@ -1,7 +1,6 @@
 #!/bin/sh
 
-: "
-Git has three main states that your files can reside in:
+: "Git has three main states that your files can reside in:
 
 Working tree    | File changed but not committed it to database yet
 Staging area    | File marked as modified to go into your next commit
