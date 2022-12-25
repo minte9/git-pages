@@ -1,9 +1,19 @@
 touch
+	 D main/basics/removing_files/a.txt
+	 D main/basics/removing_files/output.log
 	?? main/basics/removing_files/myfile
 git add
+	 D main/basics/removing_files/a.txt
 	A  main/basics/removing_files/myfile
+	 D main/basics/removing_files/output.log
 git rm --cached
+	 D main/basics/removing_files/a.txt
+	 D main/basics/removing_files/output.log
 	?? main/basics/removing_files/myfile
 git add
+	 D main/basics/removing_files/a.txt
 	A  main/basics/removing_files/myfile
+	 D main/basics/removing_files/output.log
 git rm -f
+	 D main/basics/removing_files/a.txt
+	 D main/basics/removing_files/output.log
