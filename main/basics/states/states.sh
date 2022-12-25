@@ -1,14 +1,14 @@
 #!/bin/sh
 
 : """
+Git has three main states that your files can reside in:
+
+Working tree / File changed but not committed it to database yet
+Staging area / File marked as modified to go into your next commit
+Repository / Committed file is stored in your DB
+
 The history of the project is on the local disk
 GIT stores everything in his database using hashes
-
-Working tree / Staging area / Repository
-
-File changed but not committed it to database yet
-File marked as modified to go into your next commit
-Committed file is stored in your DB
 """
 
 alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
