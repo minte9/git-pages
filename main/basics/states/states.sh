@@ -1,6 +1,6 @@
 #!/bin/sh
 
-: """
+: "
 Git has three main states that your files can reside in:
 
 Working tree    | File changed but not committed it to database yet
@@ -9,7 +9,7 @@ Repository      | Committed file is stored in your DB
 
 The history of the project is on the local disk
 GIT stores everything in his database using hashes
-"""
+"
 
 alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
 alias gs="git status | sed 's/^/\t/'; echo"
