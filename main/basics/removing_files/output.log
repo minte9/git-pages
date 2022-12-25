@@ -13,7 +13,7 @@ git rm -f
 		deleted:    a.tmp
 	
 
-[main c07918c] m
+[main 0e16568] m
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 main/basics/removing_files/a.tmp
 touch
