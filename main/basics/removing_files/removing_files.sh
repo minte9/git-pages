@@ -11,7 +11,7 @@ Reset unstages a staged file
 alias gsp="git status --porcelain | sed 's/^/\t/'"
 alias gs="git status | sed 's/^/\t/'"
 
-touch a.txt                     ; git status --porcelain
-git add a.txt                   ; git status --porcelain
-git rm --cached a.txt           ; git status --porcelain 
+touch a.txt                   ; echo 'touch'  ; git status --porcelain
+git add a.txt                 ; echo 'git add'  ; git status --porcelain
+git rm --cached a.txt         ; echo 'git rm --cached' ; git status --porcelain 
 #git rm a.txt > /dev/null        ; git status --porcelain
