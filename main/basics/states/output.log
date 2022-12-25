@@ -1,0 +1,16 @@
+touch / Working tree:
+	?? main/basics/states/myfile.tmp
+
+git add . / Staging area:
+	A  main/basics/states/myfile.tmp
+
+git commit / Repository:
+	On branch master
+	nothing to commit, working tree clean
+
+git rm / Staging area:
+	D  main/basics/states/myfile.tmp
+
+git commit / Repository:
+	On branch master
+	nothing to commit, working tree clean
