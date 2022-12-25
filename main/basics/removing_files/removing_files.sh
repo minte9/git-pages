@@ -14,4 +14,4 @@ alias gs="git status | sed 's/^/\t/'"
 touch a.txt                   ; echo 'touch'  ; gsp
 git add a.txt                 ; echo 'git add'  ; gsp
 git rm --cached a.txt > /dev/null        ; echo 'git rm --cached' ; gsp 
-#git rm a.txt > /dev/null        ; git status --porcelain
+git rm -f a.txt > /dev/null        ; echo 'git rm -f' ; gs
