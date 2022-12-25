@@ -1,14 +1,11 @@
 touch
-	 M main/basics/removing_files/removing_files.sh
 
 git add
 git rm --cached
 	D  main/basics/removing_files/a.tmp
-	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.tmp
 
 git add
-	 M main/basics/removing_files/removing_files.sh
 
 git rm -f
 	On branch main
@@ -16,25 +13,12 @@ git rm -f
 	  (use "git restore --staged <file>..." to unstage)
 		deleted:    a.tmp
 	
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   removing_files.sh
-	
 
 touch
 	D  main/basics/removing_files/a.tmp
-	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.tmp
 
 git add
-Unstaged changes after reset:
-M	main/basics/removing_files/removing_files.sh
 git reset
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   removing_files.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
