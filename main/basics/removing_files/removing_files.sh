@@ -8,8 +8,8 @@ To keep the file on the working directory, use --cached
 Reset unstages a staged file
 "
 
-alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
-alias gs="git status | sed 's/^/\t/'; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/'"
+alias gs="git status | sed 's/^/\t/'"
 
 touch a.txt ; gsp
 git add a.txt ; gsp
