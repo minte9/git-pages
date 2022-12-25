@@ -1,21 +1,13 @@
 touch
-	 M main/basics/removing_files/removing_files.sh
 git add
-	 M main/basics/removing_files/removing_files.sh
 git rm --cached
 	D  main/basics/removing_files/a.txt
-	 M main/basics/removing_files/removing_files.sh
 	?? main/basics/removing_files/a.txt
 git rm -f
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
 		deleted:    a.txt
-	
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   removing_files.sh
 	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
