@@ -15,7 +15,7 @@ touch .gitignore                    ; echo "*.tmp" > .gitignore
                                       echo ".gitignore / Working tree:" ; gsp
 
 git add .
-git commit -m 'm' > /dev/null ;     ; echo "git commit / Repository:" ; gs
+git commit -m 'm' > /dev/null       ; echo "git commit / Repository:" ; gs
 
 git rm .gitignore > /dev/null
 git rm a.txt > /dev/null
