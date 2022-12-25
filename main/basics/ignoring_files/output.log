@@ -1,3 +1,17 @@
 touch / Working tree:
+	 M main/basics/ignoring_files/ignoring_files.sh
 
 .gitignore / Working tree:
+	 M main/basics/ignoring_files/ignoring_files.sh
+
+git commit / Repository:
+	On branch main
+	nothing to commit, working tree clean
+
+git rm / Repository:
+	D  main/basics/ignoring_files/.gitignore
+	D  main/basics/ignoring_files/a.txt
+
+git commit / Repository:
+	On branch main
+	nothing to commit, working tree clean
