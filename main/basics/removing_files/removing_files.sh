@@ -5,7 +5,6 @@
 If a file is not tracked rm file will generate error
 To remove a file and keep it in working directory, use --cached
 To remove a file from working directory, when used with -f
-Alternatively, you can use reset to untrack files
 "
 
 alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
@@ -16,8 +15,3 @@ git add a.tmp                       ; echo 'git add'
 git rm --cached a.tmp > /dev/null   ; echo 'git rm --cached' ; gsp 
 git add a.tmp                       ; echo 'git add' 
 git rm -f a.tmp > /dev/null         ; echo 'git rm -f'       ; gs
-git commit -am 'm' > /dev/null
-
-touch a.tmp                         ; echo 'touch'           ; gsp
-git add a.tmp                       ; echo 'git add'
-git reset HEAD -- a.tmp             ; echo 'git reset'       ; gs
