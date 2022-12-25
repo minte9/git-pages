@@ -18,7 +18,7 @@ touch myfile.tmp
     echo "touch / Working tree:"
     gsp
 
-git add .
+git add . # Look Here
     echo "git add . / Staging area:"
     gsp
 
