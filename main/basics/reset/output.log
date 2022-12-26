@@ -1,15 +1,18 @@
-touch /
+touch / Working tree;
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
-git add /
+git add / Staging area
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
-[main 1ca8707] First commit
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[main 5e3c2ce] First commit
+ 2 files changed, 4 insertions(+), 4 deletions(-)
  create mode 100644 main/basics/reset/a.txt
 
-Log
-1ca8707 First commit
+git log / Show first:
+5e3c2ce First commit
 
-Reset
+Reset soft / Staging area:
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
