@@ -12,4 +12,7 @@ git commit -m 'First commit' --quiet
 echo "git log /"
 git log -n 2 --oneline
 
+git reset --soft HEAD~1
+git log -n 2 --oneline
+
 git rm a.txt > /dev/null

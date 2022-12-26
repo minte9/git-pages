@@ -1,9 +1,11 @@
 touch / 
-	?? main/basics/reset/a.txt
 
 git add / 
-	A  main/basics/reset/a.txt
 
+On branch main
+nothing to commit, working tree clean
 git log /
+333ed7f output.sh - update repo
+637c3a0 output.sh - update repo
+637c3a0 output.sh - update repo
 42d6b79 First commit
-84aed48 output.sh - update repo
