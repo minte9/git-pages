@@ -1,15 +1,14 @@
--ntouch / 
- M main/basics/reset/reset.sh
+touch /  M main/basics/reset/reset.sh
 ?? main/basics/reset/a.txt
 git add / 
 	A  main/basics/reset/a.txt
 	M  main/basics/reset/reset.sh
 
 git log /
-04a9cea First commit
-5b8a9ca output.sh - update repo
+5b62dcd First commit
+10cbac4 output.sh - update repo
 	A  main/basics/reset/a.txt
 	M  main/basics/reset/reset.sh
 
-5b8a9ca output.sh - update repo
-6d321e7 m
+10cbac4 output.sh - update repo
+b4774b7 m
