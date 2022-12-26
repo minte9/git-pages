@@ -1,19 +1,18 @@
 touch / Working tree;
-	?? main/basics/reset/a.txt
 
 git add / Staging area
-	A  main/basics/reset/a.txt
 
 git commit /
-	[main a07e5ca] First commit
-	 1 file changed, 0 insertions(+), 0 deletions(-)
-	 create mode 100644 main/basics/reset/a.txt
+	On branch main
+	nothing to commit, working tree clean
 
 git log / Show first:
-	a07e5ca First commit
+	04b0bce output.sh - update repo
 
 Reset soft ~1/ Staging area:
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/output.log
+	M  main/basics/reset/reset.sh
 
 Reset ~1/ Staging area:
 Unstaged changes after reset:
@@ -21,6 +20,7 @@ M	main/basics/reset/output.log
 M	main/basics/reset/reset.sh
 	 M main/basics/reset/output.log
 	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
 
 Repo clean up
 On branch main
@@ -29,5 +29,9 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   output.log
 	modified:   reset.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	a.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
