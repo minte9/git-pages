@@ -1,9 +1,9 @@
 touch / Working tree:
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
-A  a.txt
+02ee993 first
 touch / Working tree:
-	A  main/basics/reset/a.txt
 	?? main/basics/reset/b.txt
 
 git commit / Repository:
@@ -11,5 +11,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-0215074 second
-d143d90 output.sh - update repo
+e399f76 second
+02ee993 first
