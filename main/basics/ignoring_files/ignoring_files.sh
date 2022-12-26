@@ -3,8 +3,7 @@
 : "Create a file .gitignore containing a list of patterns to match
 "
 
-alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
-alias gs="git status | sed 's/^/\t/'; echo"
+../../aliases.sh
 
 touch a.txt b.tmp                   ; echo "touch / Working tree:"      ; gsp
 touch .gitignore
