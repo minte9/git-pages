@@ -1,1 +1,19 @@
+touch / Working tree:
+	 M main/basics/reset/output.log
+	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
 
+git commit / Repository:
+	On branch main
+	nothing to commit, working tree clean
+
+touch / Working tree:
+	?? main/basics/reset/b.txt
+
+git commit / Repository:
+	On branch main
+	nothing to commit, working tree clean
+
+git rm / Repository:
+	D  main/basics/reset/a.txt
+	D  main/basics/reset/b.txt
