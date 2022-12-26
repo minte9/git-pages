@@ -14,5 +14,6 @@ git log -n 2 --oneline
 
 git reset --soft HEAD~1
 git log -n 2 --oneline
+git commit -m 'm' --quiet
 
 git rm a.txt > /dev/null
