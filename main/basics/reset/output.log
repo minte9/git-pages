@@ -1,21 +1,18 @@
 touch /
-	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 git add /
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
-[main 79ef529] First commit
- 2 files changed, 1 insertion(+), 1 deletion(-)
+[main 6a9e66e] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 main/basics/reset/a.txt
 Log
-79ef529 First commit
-a9af4b9 output.sh - update repo
+6a9e66e First commit
+ea321cd output.sh - update repo
 Reset
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
 Log
-a9af4b9 output.sh - update repo
-5db9c0b Commit reset
+ea321cd output.sh - update repo
+a110981 Commit reset
