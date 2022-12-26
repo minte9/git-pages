@@ -16,4 +16,4 @@ echo "$output" | tee output.log
 
 git add output.log
 git add ../../
-git commit -am 'Update repo' > /dev/null
+git commit -am 'output.sh - Update all repo' > /dev/null
