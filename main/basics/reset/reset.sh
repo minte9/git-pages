@@ -7,7 +7,7 @@
 
 touch a.txt     ; echo "touch / Working tree:"      ; gsp
 git add .
-git commit -m 'first'
+git commit -m 'first' --quiet
 
 touch b.txt     ; echo "touch / Working tree:"      ; gsp
 git add .
