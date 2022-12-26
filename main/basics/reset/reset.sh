@@ -5,15 +5,18 @@
 
 . "../../aliases.sh"
 
-touch a.txt     ; echo -n "touch / \t"    ; git status --porcelain
-git add .       ; echo -n "git add / \t"  ; git status --porcelain
+touch a.txt     ; echo "touch /"    ; gsp
+git add .       ; echo "git add /"  ; gsp
 git commit -m 'First commit' --quiet
 
-echo "git log /"
+echo "Log"
 git log -n 2 --oneline
 
+echo "Reset"
 git reset --soft HEAD~1 ; gsp
-git log -n 2 --oneline
-git commit -m 'm' --quiet
 
+echo "Log"
+git log -n 2 --oneline
+
+git commit -m 'Commit reset' --quiet
 git rm a.txt > /dev/null
