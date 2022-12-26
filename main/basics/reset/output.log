@@ -1,26 +1,20 @@
 touch
-	?? main/basics/reset/a.txt
+	 M main/basics/reset/reset.sh
 
 git add
-	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 git commit
-	[main 3b89fbc] First commit
-	 1 file changed, 0 insertions(+), 0 deletions(-)
-	 create mode 100644 main/basics/reset/a.txt
+	[main c69c84c] First commit
+	 1 file changed, 1 insertion(+), 1 deletion(-)
 
 git last log
-	3b89fbc First commit
+	c69c84c First commit
 
 Reset soft ~1
-	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 Reset ~1
-	?? main/basics/reset/a.txt
-
-On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	a.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
+Unstaged changes after reset:
+M	main/basics/reset/reset.sh
+	 M main/basics/reset/reset.sh
