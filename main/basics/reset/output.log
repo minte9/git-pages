@@ -1,6 +1,4 @@
 touch / Working tree:
-	 M main/basics/reset/output.log
-	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 git commit / Repository:
