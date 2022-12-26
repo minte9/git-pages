@@ -3,7 +3,7 @@
 : "Create a file .gitignore containing a list of patterns to match
 "
 
-source ../../aliases.sh
+. ../../aliases.sh
 
 touch a.txt b.tmp                   ; echo "touch / Working tree:"      ; gsp
 touch .gitignore
