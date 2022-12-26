@@ -1,12 +1,9 @@
 touch / Working tree:
-	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 A  a.txt
-M  reset.sh
 touch / Working tree:
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 	?? main/basics/reset/b.txt
 
 git commit / Repository:
@@ -14,5 +11,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-30b3546 second
-21e3fe1 output.sh - update repo
+e030711 second
+41fa2c2 output.sh - update repo
