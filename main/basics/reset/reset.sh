@@ -9,8 +9,8 @@ You can get the commit back as long as it was within a few days
 
 . "../../aliases.sh"
 
-touch a.txt             ; echo "touch"                  ; gsp
-git add .               ; echo "git add"                ; gsp
+echo "touch"            ; touch a.txt                   ; gsp
+echo "git add"          ; git add .                     ; gsp
 
 echo "git commit"       ; git commit -m 'First commit'  | tab2lines
 echo "git last log"     ; git log -n 1 --oneline        | tab2lines 
