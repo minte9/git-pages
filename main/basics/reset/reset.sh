@@ -13,7 +13,7 @@ touch b.txt     ; echo "touch / Working tree:"      ; gsp
 git add .
 git commit -m 'second' > /dev/null       ; echo "git commit / Repository:"   ; gs
 
-git log -l
+git log --oneline -n 3
 
 git rm a.txt b.txt > /dev/null
 git commit -am > /dev/null
