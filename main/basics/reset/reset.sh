@@ -16,4 +16,4 @@ git reset --soft HEAD~1 ; gsp ; gcq
                   echo "Reset ~1"
 git reset HEAD~1 ; gsp ; gcq
                   
-rm a.txt > /dev/null
+git rm -f a.txt > /dev/null
