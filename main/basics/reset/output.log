@@ -1,6 +1,10 @@
 touch / Working tree:
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
+[main 063aacf] first
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 main/basics/reset/a.txt
 touch / Working tree:
 	?? main/basics/reset/b.txt
 
@@ -9,5 +13,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-29ccd23 second
-a58d589 first
+161bb55 second
+063aacf first
