@@ -5,7 +5,7 @@
 
 . "../../aliases.sh"
 
-touch a.txt     ; echo "touch / "      ; gsp
+touch a.txt     ; echo "touch / "      ; git status --porcelain
 git add .      ; echo "git add / " ; gsp
 git commit -m 'First commit' --quiet
 
