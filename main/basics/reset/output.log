@@ -1,5 +1,4 @@
 touch / Working tree:
-	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 touch / Working tree:
@@ -10,5 +9,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-897ed04 second
-eab4d2a first
+c57a3f7 second
+c8a6410 first
