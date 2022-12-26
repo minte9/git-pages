@@ -5,8 +5,8 @@
 
 . "../../aliases.sh"
 
-touch a.txt     ; echo -n "touch / " ; gsp
-git add .      ; echo -n "git add / " ; gsp
+touch a.txt     ; echo -n "touch / "    ; git status --porcelain
+git add .       ; echo -n "git add / "  ; git status --porcelain
 git commit -m 'First commit' --quiet
 
 echo "git log /"
