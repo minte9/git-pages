@@ -15,5 +15,5 @@ git log -n 1 --oneline | tab2lines
 git reset --soft HEAD~1 ; gsp
                   echo "Reset ~1 / Working:" ; gcq
 git reset HEAD~1 ; gsp
-                  echo "Repo clean up" : gcq
+                  echo "Repo clean up" ; gcq
 git rm a.txt > /dev/null
