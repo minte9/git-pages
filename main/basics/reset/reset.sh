@@ -3,7 +3,7 @@
 : "Commit reset
 Reset soft  / modifications remain in staging
 Reset       / modifications are removed from staging
-Reset hard  / modifications are removed, but remains in gargage
+Reset hard  / modifications are removed, but stored in gargage
 You can get the commit back as long as it was within a few days
 "
 
