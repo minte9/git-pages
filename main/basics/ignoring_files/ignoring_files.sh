@@ -4,7 +4,7 @@
 Use . (source command) to exectute aliasses.sh in the current shell
 "
 
-. ../../aliases.sh
+exec ../../aliases.sh
 
 touch a.txt b.tmp                   ; echo "touch / Working tree:"      ; gsp
 touch .gitignore
