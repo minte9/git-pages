@@ -12,7 +12,7 @@ git commit -m 'First commit' --quiet
 echo "git log /"
 git log -n 2 --oneline
 
-git reset --soft HEAD~1
+git reset --soft HEAD~1 ; gsp
 git log -n 2 --oneline
 git commit -m 'm' --quiet
 
