@@ -1,11 +1,11 @@
 touch / 
+	 M main/basics/reset/reset.sh
 
 git add / 
+	M  main/basics/reset/reset.sh
 
-On branch main
-nothing to commit, working tree clean
 git log /
-333ed7f output.sh - update repo
+c650c72 First commit
+3ea83f0 output.sh - update repo
+3ea83f0 output.sh - update repo
 637c3a0 output.sh - update repo
-637c3a0 output.sh - update repo
-42d6b79 First commit
