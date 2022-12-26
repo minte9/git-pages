@@ -1,10 +1,9 @@
 touch /
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
-add /
-	A  main/basics/reset/a.txt
-
-576b588 First commit
+git add  gsp
+a7ea98b First commit
 touch / Working tree:
 	?? main/basics/reset/b.txt
 
@@ -13,5 +12,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-7a58a2d second
-576b588 First commit
+820f7e5 second
+a7ea98b First commit
