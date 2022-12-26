@@ -1,19 +1,39 @@
 touch
+	 M main/aliases.sh
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 git add
+	 M main/aliases.sh
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 git commit
-	[main 48d3f52] First commit
-	 1 file changed, 0 insertions(+), 0 deletions(-)
+	[main 88347ad] First commit
+	 2 files changed, 2 insertions(+), 2 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	48d3f52 First commit
+	88347ad First commit
 
 Reset soft ~1
+	 M main/aliases.sh
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 Reset ~1
-	?? main/basics/reset/a.txt
+Unstaged changes after reset:
+M	main/aliases.sh
+M	main/basics/reset/reset.sh
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../../aliases.sh
+	modified:   reset.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	a.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
