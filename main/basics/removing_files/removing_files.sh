@@ -7,8 +7,7 @@ To remove a file and keep it in working directory, use --cached
 To remove a file from working directory, when used with -f
 "
 
-alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
-alias gs="git status | sed 's/^/\t/' ; echo"
+. "../../aliases.sh"
 
 touch a.tmp                         ; echo 'touch'           ; gsp
 git add a.tmp                       ; echo 'git add'
