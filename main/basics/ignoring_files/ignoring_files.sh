@@ -1,7 +1,7 @@
 #!/bin/sh
 
 : "Create a file .gitignore containing a list of patterns to match
-Use . (source command) to exectute aliasses.sh in the current shell
+Use . (source command) to exectute aliases.sh in the current shell
 "
 
 . ../../aliases.sh
