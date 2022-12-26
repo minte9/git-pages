@@ -1,9 +1,11 @@
-touch /
-	 M main/basics/reset/reset.sh
-	?? main/basics/reset/a.txt
+touch / 
+ M main/basics/reset/reset.sh
+?? main/basics/reset/a.txt
+git add / 
+	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
-git add 
-d742749 First commit
+6d3bb5b First commit
 touch / Working tree:
 	?? main/basics/reset/b.txt
 
@@ -12,5 +14,5 @@ git commit / Repository:
 	nothing to commit, working tree clean
 
 git log /
-6aa1b1a second
-d742749 First commit
+e1373f0 second
+6d3bb5b First commit
