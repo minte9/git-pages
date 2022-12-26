@@ -1,12 +1,9 @@
-touch /  M main/basics/reset/reset.sh
-?? main/basics/reset/a.txt
+touch / ?? main/basics/reset/a.txt
 git add / A  main/basics/reset/a.txt
-M  main/basics/reset/reset.sh
 git log /
-4e6bf97 First commit
-ccac066 output.sh - update repo
+e7ad5a1 First commit
+9bae345 output.sh - update repo
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
-ccac066 output.sh - update repo
-7ba5e10 m
+9bae345 output.sh - update repo
+f68e730 m
