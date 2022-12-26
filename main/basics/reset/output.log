@@ -5,12 +5,12 @@ git add
 	A  main/basics/reset/a.txt
 
 git commit
-	[main 4e892d8] First commit
+	[main 3e47a47] First commit
 	 1 file changed, 0 insertions(+), 0 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	4e892d8 First commit
+	3e47a47 First commit
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
