@@ -1,5 +1,4 @@
 touch / Working tree:
-	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 git commit / Repository:
@@ -12,6 +11,24 @@ touch / Working tree:
 git commit / Repository:
 	On branch main
 	nothing to commit, working tree clean
+
+commit 72d6d1f3ffc9bba7b93aa70253dcf15ab6148e24
+Author: minte9 <catalinprescure@gmail.com>
+Date:   Mon Dec 26 13:10:43 2022 +0200
+
+    second
+
+commit 905f7af44200aab4167f875b85020bd912175c66
+Author: minte9 <catalinprescure@gmail.com>
+Date:   Mon Dec 26 13:10:43 2022 +0200
+
+    first
+
+commit 27a88f35bccd007129711a288639ead7c1c5382c
+Author: minte9 <catalinprescure@gmail.com>
+Date:   Mon Dec 26 13:10:42 2022 +0200
+
+    Update repo
 
 commit da1f560f2b727620508d52f7c5634b640f1972bb
 Author: minte9 <catalinprescure@gmail.com>
