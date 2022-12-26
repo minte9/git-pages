@@ -11,7 +11,7 @@ $1 - first command argument
 tee - outputs & save
 """
 
-output=`./$1`
+output=aliases`./$1`
 echo "$output" | tee output.log 
 
 git add output.log
