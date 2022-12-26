@@ -1,28 +1,19 @@
 touch / Working tree:
-	 M main/basics/ignoring_files/ignoring_files.sh
-	?? main/aliases.sh
+	?? main/basics/ignoring_files/a.txt
+	?? main/basics/ignoring_files/b.tmp
 
 .gitignore / Working tree:
-	 M main/basics/ignoring_files/ignoring_files.sh
-	?? main/aliases.sh
+	?? main/basics/ignoring_files/.gitignore
+	?? main/basics/ignoring_files/a.txt
 
 git commit / Repository:
 	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		../../aliases.sh
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	nothing to commit, working tree clean
 
 git rm / Repository:
 	D  main/basics/ignoring_files/.gitignore
 	D  main/basics/ignoring_files/a.txt
-	?? main/aliases.sh
 
 git commit / Repository:
 	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		../../aliases.sh
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	nothing to commit, working tree clean
