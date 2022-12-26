@@ -15,5 +15,5 @@ git commit -m 'second' > /dev/null       ; echo "git commit / Repository:"   ; g
 
 git log -n 3 --oneline
 
-git rm a.txt b.txt > /dev/null
-git commit -am > /dev/null
+git rm a.txt > /dev/null
+git rm b.txt > /dev/null
