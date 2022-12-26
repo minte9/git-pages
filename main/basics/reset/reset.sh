@@ -7,7 +7,9 @@
 
 touch a.txt     ; echo "touch / Working tree;"    ; gsp
 git add .       ; echo "git add / Staging area"  ; gsp
-git commit -m 'First commit'; echo
+
+echo "git commit /"
+git commit -m 'First commit' | sed 's/^/\t/' ; echo
 
 echo "git log / Show first:"
 git log -n 1 --oneline ; echo
