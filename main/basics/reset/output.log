@@ -1,20 +1,30 @@
 touch
+	 M main/aliases.sh
 
 git add
+	 M main/aliases.sh
 
 git commit
 	On branch main
-	nothing to commit, working tree clean
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   ../../aliases.sh
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
 
 git last log
-	e3b87b3 output.sh - update repo
+	811fb05 output.sh - update repo
 
 Reset soft ~1
+	 M main/aliases.sh
 	A  main/basics/reset/a.txt
 	M  main/basics/reset/output.log
 
 Reset ~1
 Unstaged changes after reset:
+M	main/aliases.sh
 M	main/basics/reset/output.log
+	 M main/aliases.sh
 	 M main/basics/reset/output.log
 	?? main/basics/reset/a.txt
