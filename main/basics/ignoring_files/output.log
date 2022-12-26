@@ -1,10 +1,8 @@
 touch / Working tree:
-	?? main/basics/ignoring_files/a.txt
-	?? main/basics/ignoring_files/b.tmp
+	 M main/basics/ignoring_files/ignoring_files.sh
 
 .gitignore / Working tree:
-	?? main/basics/ignoring_files/.gitignore
-	?? main/basics/ignoring_files/a.txt
+	 M main/basics/ignoring_files/ignoring_files.sh
 
 git commit / Repository:
 	On branch main
