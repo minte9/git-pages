@@ -12,7 +12,7 @@ echo "git commit /"
 git commit -m 'First commit' | sed 's/^/\t/' ; echo
 
 echo "git log / Show first:"
-git log -n 1 --oneline ; echo
+git log -n 1 --oneline | sed 's/^/\t/' ; echo
 
 echo "Reset soft / Staging area:"
 git reset --soft HEAD~1 ; gsp
