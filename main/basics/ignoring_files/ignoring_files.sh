@@ -7,6 +7,9 @@ alias gsp=\"git status --porcelain | sed 's/^/\t/'; echo\"
 alias gs=\"git status | sed 's/^/\t/'; echo\"
 "
 
+# Source the ~/.bashrc file
+. ~/.bashrc
+
 touch a.txt b.tmp                   ; echo "touch / Working tree:"      ; gsp
 touch .gitignore
 echo "*.tmp" > .gitignore           ; echo ".gitignore / Working tree:" ; gsp
