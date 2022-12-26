@@ -1,25 +1,19 @@
 touch
-	 M main/aliases.sh
-	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
 
 git add
-	 M main/aliases.sh
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 
 git commit
-	[main c7bd160] First commit
-	 1 file changed, 1 insertion(+), 1 deletion(-)
+	[main 48d3f52] First commit
+	 1 file changed, 0 insertions(+), 0 deletions(-)
+	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	c7bd160 First commit
+	48d3f52 First commit
 
 Reset soft ~1
-	 M main/aliases.sh
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 
 Reset ~1
-Unstaged changes after reset:
-M	main/aliases.sh
-M	main/basics/reset/reset.sh
-	 M main/aliases.sh
-	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
