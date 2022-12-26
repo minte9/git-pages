@@ -1,25 +1,20 @@
 touch
-	 M main/basics/reset/reset.sh
-	?? main/basics/reset/a.txt
 
 git add
-	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
 git commit
-	[main d70bc67] First commit
-	 2 files changed, 1 insertion(+), 1 deletion(-)
-	 create mode 100644 main/basics/reset/a.txt
+	On branch main
+	nothing to commit, working tree clean
 
 git last log
-	d70bc67 First commit
+	39cf41d output.sh - update repo
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
+	M  main/basics/reset/output.log
 
 Reset ~1
 Unstaged changes after reset:
-M	main/basics/reset/reset.sh
-	 M main/basics/reset/reset.sh
+M	main/basics/reset/output.log
+	 M main/basics/reset/output.log
 	?? main/basics/reset/a.txt
