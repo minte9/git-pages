@@ -6,8 +6,8 @@
 . "../../aliases.sh"
 
 touch a.txt     ; echo "touch /"      ; gsp
-git add .      ; echo "touch /"      ; gsp
-git commit -m 'First commit' --short
+git add .      ; echo "add /"      ; gsp
+git commit -m 'First commit' --quiet
 git log -n 1 --oneline
 
 touch b.txt     ; echo "touch / Working tree:"      ; gsp
