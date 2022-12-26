@@ -7,7 +7,7 @@ git commit
 	nothing to commit, working tree clean
 
 git last log
-	39cf41d output.sh - update repo
+	e3b87b3 output.sh - update repo
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
