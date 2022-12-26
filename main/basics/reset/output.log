@@ -1,27 +1,27 @@
 touch / Working tree;
-	?? main/basics/reset/a.txt
+	 M main/aliases.sh
+	 M main/basics/reset/reset.sh
 
 git add / Staging area
-	A  main/basics/reset/a.txt
+	 M main/aliases.sh
+	M  main/basics/reset/reset.sh
 
 git commit /
-	[main 09bae74] First commit
-	 1 file changed, 0 insertions(+), 0 deletions(-)
-	 create mode 100644 main/basics/reset/a.txt
+	[main 19db101] First commit
+	 1 file changed, 6 insertions(+), 8 deletions(-)
 
-git log / Show first:
-	09bae74 First commit
+git log / Show last log:
+	19db101 First commit
 
-Reset soft ~1/ Staging area:
-	A  main/basics/reset/a.txt
+Reset soft ~1 / Staging area:
+	 M main/aliases.sh
+	M  main/basics/reset/reset.sh
 
-Reset ~1/ Staging area:
-	?? main/basics/reset/a.txt
+Reset ~1 / Working:
+Unstaged changes after reset:
+M	main/aliases.sh
+M	main/basics/reset/reset.sh
+	 M main/aliases.sh
+	 M main/basics/reset/reset.sh
 
-Repo clean up
-On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	a.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
+Repo clean up : gcq
