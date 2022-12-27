@@ -1,4 +1,5 @@
 git add
+	M  main/basics/reset/file_diff.sh
 	M  main/basics/reset/myfile.tmp
 
 git commit
