@@ -1,11 +1,10 @@
 git add
-	M  main/basics/reset/file_diff.sh
 	A  main/basics/reset/myfile.tmp
 
 git commit
 
 git last log
-	c6c435f output.sh - update repo
+	b1d2bd2 output.sh - update repo
 
 [1mdiff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp[m
 [1mnew file mode 100644[m
