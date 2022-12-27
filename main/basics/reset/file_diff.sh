@@ -8,7 +8,7 @@
 echo "abc" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
-echo "git commit"       ; git commit --quiet -m 'My commit'
+echo "git commit"       ; git commit -m 'My commit'     ; gsp
 
 echo "yyy" >> "myfile.tmp"
 git diff HEAD^ "myfile.tmp"
