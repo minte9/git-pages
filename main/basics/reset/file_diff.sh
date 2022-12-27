@@ -10,7 +10,7 @@ HEAD^   / refers to the commit before the current commit
 
 echo "touch"                ; touch myfile.tmp          ; gsp   
 echo "write"                ; echo "A" > myfile.tmp     ; gsp
-echo "git add \n commit"    ; gc ; gs
+echo "git add \ngit commit" ; gc ; gs
 
 echo "overwrite"            ; echo "B" > myfile.tmp     ; gsp
 echo "write"                ; echo "C" >> myfile.tmp    ; gsp
