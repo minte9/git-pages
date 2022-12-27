@@ -5,9 +5,8 @@
 
 . "../../aliases.sh"
 
-echo "abc" > "myfile.tmp"
-
-echo "git add" ; git add . ; gsp
+echo "touch"        ; echo "abc" > "myfile.tmp" ; gsp
+echo "git add"      ; git add .                 ; gsp
 
 echo "yyy" >> "myfile.tmp"
 echo "git diff"         ; git diff HEAD^ "myfile.tmp"   | tab2lines
