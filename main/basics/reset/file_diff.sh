@@ -7,8 +7,7 @@
 
 echo "touch"                ; touch myfile.tmp     
 echo "write"                ; echo "A" > myfile.tmp
-echo "git add"              ; git add .
-echo "git commit"           ; gsp
+echo "git add commit"       ; gc
 
 echo "overwrite"
 echo "B" > "myfile.tmp"
