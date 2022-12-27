@@ -8,7 +8,7 @@
 echo "abc" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
-echo "git commit"       ; git commit --oneline -m 'My commit'     | tab2lines
+echo "git commit"       ; gsp
 
 echo "yyy" >> "myfile.tmp"
 echo "git diff"         ; git diff HEAD^ "myfile.tmp"   | tab2lines
