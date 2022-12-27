@@ -7,12 +7,12 @@ git add
 	 M main/output.sh
 
 git commit
-	[main 7608a4b] My commit
+	[main 4cbf7b6] My commit
 	 1 file changed, 0 insertions(+), 0 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	7608a4b My commit
+	4cbf7b6 My commit
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
