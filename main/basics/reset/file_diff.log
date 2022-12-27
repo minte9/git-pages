@@ -10,13 +10,14 @@ git commit
 	On branch main
 	nothing to commit, working tree clean
 
-overwrite : gsp
+overwrite
+
 git diff
 	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
-	new file mode 100644
-	index 0000000..1daf588
-	--- /dev/null
+	index f70f10e..1daf588 100644
+	--- a/main/basics/reset/myfile.tmp
 	+++ b/main/basics/reset/myfile.tmp
-	@@ -0,0 +1,2 @@
+	@@ -1 +1,2 @@
+	-A
 	+B
 	+C : gsp
