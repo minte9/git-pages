@@ -1,15 +1,17 @@
 touch & write
+	 M main/basics/reset/file_diff.sh
 	?? main/basics/reset/myfile.tmp
 
 git add
+	M  main/basics/reset/file_diff.sh
 	A  main/basics/reset/myfile.tmp
 
 write again
 git diff
 	[1mdiff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp[m
 	[1mnew file mode 100644[m
-	[1mindex 0000000..0cfbf08[m
+	[1mindex 0000000..d0389e3[m
 	[1m--- /dev/null[m
 	[1m+++ b/main/basics/reset/myfile.tmp[m
 	[36m@@ -0,0 +1 @@[m
-	[32m2[m
+	[32m<title>B</title>[m
