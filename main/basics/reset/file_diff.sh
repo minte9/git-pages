@@ -12,5 +12,6 @@ echo "git add"              ; git add . ; gsp
 echo "write again"
 echo "B" > "myfile.tmp"
 echo "git diff"             ; git diff HEAD^ HEAD -B --color "myfile.tmp"   | tab2lines
-                  
+
+         exit 0         
 git rm -f "myfile.tmp" > /dev/null
