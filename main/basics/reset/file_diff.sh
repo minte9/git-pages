@@ -5,10 +5,12 @@
 
 . "../../aliases.sh"
 
-echo "touch & write"        ; echo "abc" > "myfile.tmp" ; gsp
-echo "git add"      ; git add .                 ; gsp
+echo "touch & write"        ; touch myfile.tmp     
+echo "1" > myfile.tmp       ; gsp
+echo "git add"              ; git add . ; gsp
 
-echo "yyy" >> "myfile.tmp"
-echo "git diff"         ; git diff HEAD^ "myfile.tmp"   | tab2lines
+echo "add text to file"
+echo "2" >> "myfile.tmp"
+echo "git diff"             ; git diff HEAD^ "myfile.tmp"   | tab2lines
                   
 git rm -f "myfile.tmp" > /dev/null
