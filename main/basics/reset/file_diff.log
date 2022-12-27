@@ -1,11 +1,10 @@
 git add
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/file_diff.sh
 
 git commit
-	[main 2cbb31a] My commit
-	 2 files changed, 2 insertions(+), 1 deletion(-)
+	[main 537381d] My commit
+	 1 file changed, 1 insertion(+)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	2cbb31a My commit
+	537381d My commit
