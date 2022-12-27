@@ -1,10 +1,20 @@
 git add
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/file_diff.sh
 
 git commit
-	[main 537381d] My commit
-	 1 file changed, 1 insertion(+)
+	[main 5b1900f] My commit
+	 2 files changed, 2 insertions(+), 1 deletion(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	537381d My commit
+	5b1900f My commit
+
+diff --git a/main/basics/reset/a.txt b/main/basics/reset/a.txt
+new file mode 100644
+index 0000000..1191247
+--- /dev/null
++++ b/main/basics/reset/a.txt
+@@ -0,0 +1,2 @@
++1
++2
