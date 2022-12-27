@@ -10,7 +10,7 @@ echo "A" > myfile.tmp       ; gsp
 echo "git add"              ; git add . ; gsp
 
 echo "overwrite"
-echo "B" >> "myfile.tmp"
+echo "B" > "myfile.tmp"
 echo "C" >> "myfile.tmp"
 echo "git diff"             ; git diff HEAD^  "myfile.tmp"   | tab2lines
 
