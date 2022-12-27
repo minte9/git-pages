@@ -15,4 +15,4 @@ echo "B" > "myfile.tmp"
 echo "C" >> "myfile.tmp"
 echo "git diff"             ; git diff HEAD^  "myfile.tmp"   | tab2lines
 
-#git rm -f "myfile.tmp" > /dev/null
+git rm -f "myfile.tmp" > /dev/null
