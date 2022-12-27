@@ -8,9 +8,9 @@
 echo "abc" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
-echo "git commit"       ; git commit -m 'My commit'     | tab2lines
+echo "git commit"       ; git commit -m --oneline 'My commit'     | tab2lines
 
 echo "yyy" >> "myfile.tmp"
-echo "git diff"         ; git diff --unified HEAD^ "myfile.tmp"   | tab2lines
+echo "git diff"         ; git diff HEAD^ "myfile.tmp"   | tab2lines
                   
 git rm -f "myfile.tmp" > /dev/null
