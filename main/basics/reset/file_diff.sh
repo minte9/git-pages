@@ -5,7 +5,7 @@
 
 . "../../aliases.sh"
 
-echo "touch"                ; touch myfile.tmp     
+echo "touch"                ; touch myfile.tmp  ; gs   
 echo "write"                ; echo "A" > myfile.tmp
 echo "git add commit"       ; gc
 
