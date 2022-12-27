@@ -6,3 +6,10 @@ git add
 
 write again
 git diff
+	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
+	new file mode 100644
+	index 0000000..223b783
+	--- /dev/null
+	+++ b/main/basics/reset/myfile.tmp
+	@@ -0,0 +1 @@
+	+B
