@@ -9,7 +9,7 @@ echo "touch & write"        ; touch myfile.tmp
 echo "A" > myfile.tmp       ; gsp
 echo "git add"              ; git add . ; gsp
 
-echo "write"
+echo "overwrite"
 echo "B" > "myfile.tmp"
 echo "git diff"             ; git diff HEAD^  "myfile.tmp"   | tab2lines
 
