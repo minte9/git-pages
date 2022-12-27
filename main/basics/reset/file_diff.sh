@@ -12,8 +12,8 @@ echo "touch"                ; touch myfile.tmp          ; gsp
 echo "write"                ; echo "A" > myfile.tmp     ; gsp
 echo "git add + commit"     ; gc ; gs
 
-echo "overwrite with B"     ; echo "B" > myfile.tmp     ; gsp
-echo "write C"              ; echo "C" >> myfile.tmp    ; gsp
+echo "overwrite"            ; echo "B" > myfile.tmp     ; gsp
+echo "write"                ; echo "C" >> myfile.tmp    ; gsp
 echo "git diff"             ; git diff HEAD myfile.tmp  | tab2lines
 
 git rm -f myfile.tmp > /dev/null
