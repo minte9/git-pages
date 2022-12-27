@@ -1,6 +1,9 @@
 #!/bin/sh
 
-: "Difference beetwen file modficiations and its last commit
+: "git diff
+Differences beetwen file modficiations and its commits
+HEAD    / refers to current commit
+HEAD^   / refers to the commit before the current commit
 "
 
 . "../../aliases.sh"
