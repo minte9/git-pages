@@ -6,7 +6,7 @@
 . "../../aliases.sh"
 
 echo "touch & write"        ; touch myfile.tmp     
-echo "A" > myfile.tmp       ; gsp
+echo "A" > myfile.tmp
 echo "git add"              ; git add . ; gsp
 
 echo "overwrite"
