@@ -8,7 +8,7 @@
 echo -n "1" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
-echo "git commit"       ; git commit -s -m 'My commit'     | tab2lines
+echo "git commit"       ; git commit --short -m 'My commit'     | tab2lines
 echo "git last log"     ; git log -n 1 --oneline        | tab2lines 
 
 echo "2" >> "myfile.tmp"
