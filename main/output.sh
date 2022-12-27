@@ -18,7 +18,6 @@ tee - outputs & save
 """
 
 filename=$(basename "$1" | cut -f1 -d.)
-echo "$filename"
 
 output=`./$1`
 echo "$output" | tee "$filename"".log" 
