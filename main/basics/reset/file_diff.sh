@@ -14,7 +14,7 @@ echo "git commit"           ; gc ; gs
 
 echo "overwrite"            ; gsp
 echo "B" > myfile.tmp
-echo "C" >> myfile.tmp      ; gsp
+echo "C" >> myfile.tmp      ; gs
 echo "git diff"             ; git diff HEAD myfile.tmp  | tab2lines
 
 git rm -f myfile.tmp > /dev/null
