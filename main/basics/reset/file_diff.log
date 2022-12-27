@@ -1,16 +1,19 @@
 touch & write
+	 M main/basics/reset/file_diff.sh
 	?? main/basics/reset/myfile.tmp
 
 git add
+	M  main/basics/reset/file_diff.sh
 	A  main/basics/reset/myfile.tmp
 
 overwrite
 git diff
 	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
 	new file mode 100644
-	index 0000000..90659bd
+	index 0000000..b1e6722
 	--- /dev/null
 	+++ b/main/basics/reset/myfile.tmp
-	@@ -0,0 +1,2 @@
+	@@ -0,0 +1,3 @@
+	+A
 	+B
 	+C
