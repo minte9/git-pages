@@ -1,14 +1,13 @@
 git add
 	A  main/basics/reset/a.txt
-	 M main/output.sh
 
 git commit
-	[main 435c41e] My commit
+	[main 75b4244] My commit
 	 1 file changed, 1 insertion(+)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	435c41e My commit
+	75b4244 My commit
 
 diff --git a/main/basics/reset/a.txt b/main/basics/reset/a.txt
 new file mode 100644
