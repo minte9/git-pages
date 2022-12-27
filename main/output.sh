@@ -11,6 +11,9 @@ $1 - first command argument
 tee - outputs & save
 """
 
+filename=$(basename "$1")
+echo "$filename"
+
 output=`./$1`
 echo "$output" | tee output.log 
 
