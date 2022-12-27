@@ -12,5 +12,9 @@ echo "git add"              ; git add . ; gsp
 echo "write again"
 echo "<title>B</title>" > "myfile.tmp"
 echo "git diff"             ; git diff HEAD^ --color-words "myfile.tmp"   | tab2lines
+
+echo "write again"
+echo "<title>C</title>" > "myfile.tmp"
+echo "git diff"             ; git diff HEAD^ --color-words "myfile.tmp"   | tab2lines
                   
 git rm -f "myfile.tmp" > /dev/null
