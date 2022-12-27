@@ -5,13 +5,12 @@
 
 . "../../aliases.sh"
 
-echo -n "1" > "myfile.tmp"
+echo -n "abc" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
 echo "git commit"       ; git commit --quiet -m 'My commit'
-echo "git last log"     ; git log -n 1 --oneline        | tab2lines 
 
-echo "2" >> "myfile.tmp"
+echo "yyy" >> "myfile.tmp"
 git diff --color HEAD^ "myfile.tmp"
                   
 git rm -f "myfile.tmp" > /dev/null
