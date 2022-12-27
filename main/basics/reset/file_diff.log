@@ -1,9 +1,6 @@
 touch
 write
-git add
-git commit
-	A  main/basics/reset/myfile.tmp
-
+git add commit
 overwrite
 git diff
 	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
