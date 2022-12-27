@@ -1,21 +1,11 @@
 touch
-	 D main/basics/states/output.log
-	 D main/basics/states/reset.log
 	?? main/basics/removing_files/a.tmp
 
 git add
 git rm --cached
-	 D main/basics/states/output.log
-	 D main/basics/states/reset.log
 	?? main/basics/removing_files/a.tmp
 
 git add
 git rm -f
 	On branch main
-	Changes not staged for commit:
-	  (use "git add/rm <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		deleted:    ../states/output.log
-		deleted:    ../states/reset.log
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
