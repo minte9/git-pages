@@ -5,7 +5,7 @@
 
 . "../../aliases.sh"
 
-echo -n "abc" > "myfile.tmp"
+echo "abc" > "myfile.tmp"
 
 echo "git add"          ; git add .                     ; gsp
 echo "git commit"       ; git commit --quiet -m 'My commit'
