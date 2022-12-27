@@ -5,7 +5,7 @@ git commit
 	A  myfile.tmp
 
 git last log
-	5cadf41 output.sh - update repo
+	97829cd output.sh - update repo
 
 [1mdiff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp[m
 [1mnew file mode 100644[m
