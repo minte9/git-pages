@@ -11,6 +11,7 @@ echo "git add"              ; git add . ; gsp
 
 echo "overwrite"
 echo "B" > "myfile.tmp"
+echo "BC" >> "myfile.tmp"
 echo "git diff"             ; git diff HEAD^  "myfile.tmp"   | tab2lines
 
 git rm -f "myfile.tmp" > /dev/null
