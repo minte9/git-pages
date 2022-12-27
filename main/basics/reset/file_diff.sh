@@ -12,6 +12,6 @@ echo "git commit"       ; git commit -m 'My commit'     | tab2lines
 echo "git last log"     ; git log -n 1 --oneline        | tab2lines 
 
 echo "2" >> a.txt
-git diff HEAD^ a.txt --colour
+git diff HEAD^ a.txt
                   
 git rm -f a.txt > /dev/null
