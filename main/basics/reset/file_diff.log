@@ -3,12 +3,17 @@ git add
 	A  main/basics/reset/myfile.tmp
 
 git commit
-	[main 28e05d7] My commit
+	[main 0c1d38e] My commit
 	 2 files changed, 2 insertions(+), 1 deletion(-)
 	 create mode 100644 main/basics/reset/myfile.tmp
 
 git last log
-	28e05d7 My commit
+	0c1d38e My commit
 
- main/basics/reset/myfile.tmp (new) | 1 +
- 1 file changed, 1 insertion(+)
+diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
+new file mode 100644
+index 0000000..48082f7
+--- /dev/null
++++ b/main/basics/reset/myfile.tmp
+@@ -0,0 +1 @@
++12
