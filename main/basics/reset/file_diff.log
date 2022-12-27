@@ -1,19 +1,21 @@
 git add
+	M  main/basics/reset/file_diff.sh
 	A  main/basics/reset/myfile.tmp
 
 git commit
-	[main c0a3a3c] My commit
-	 1 file changed, 1 insertion(+)
+	[main 6d65a29] My commit
+	 2 files changed, 2 insertions(+), 1 deletion(-)
 	 create mode 100644 main/basics/reset/myfile.tmp
 
 git last log
-	c0a3a3c My commit
+	6d65a29 My commit
 
 diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
 new file mode 100644
-index 0000000..1191247
+index 0000000..7a754f4
 --- /dev/null
 +++ b/main/basics/reset/myfile.tmp
 @@ -0,0 +1,2 @@
 +1
 +2
+\ No newline at end of file
