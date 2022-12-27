@@ -5,9 +5,10 @@
 
 . "../../aliases.sh"
 
-echo "touch & write"        ; touch myfile.tmp     
-echo "A" > myfile.tmp
-echo "git add & commit"     ; git add . ; gsp
+echo "touch"                ; touch myfile.tmp     
+echo "write"                ; echo "A" > myfile.tmp
+echo "git add"              ; git add .
+echo "git commit"           ; gsp
 
 echo "overwrite"
 echo "B" > "myfile.tmp"
