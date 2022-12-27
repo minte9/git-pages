@@ -1,19 +1,25 @@
 touch
+	 M main/output.sh
 	?? main/basics/reset/a.txt
 
 git add
 	A  main/basics/reset/a.txt
+	 M main/output.sh
 
 git commit
-	[main 738ff47] My commit
+	[main 7608a4b] My commit
 	 1 file changed, 0 insertions(+), 0 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	738ff47 My commit
+	7608a4b My commit
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
+	 M main/output.sh
 
 Reset ~1
+Unstaged changes after reset:
+M	main/output.sh
+	 M main/output.sh
 	?? main/basics/reset/a.txt
