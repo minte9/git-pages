@@ -1,7 +1,5 @@
 touch & write
 git add
-	A  main/basics/reset/myfile.tmp
-
 overwrite
 git diff
 	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp

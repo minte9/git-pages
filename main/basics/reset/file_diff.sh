@@ -7,7 +7,7 @@
 
 echo "touch & write"        ; touch myfile.tmp     
 echo "A" > myfile.tmp
-echo "git add"              ; git add . ; gsp
+echo "git add"              ; git add . ; git comit -am 'm'
 
 echo "overwrite"
 echo "B" > "myfile.tmp"
