@@ -1,56 +1,26 @@
 touch
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   restore.sh
-	
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
 
 git add
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		new file:   a.txt
-		modified:   restore.sh
-	
+	nothing to commit, working tree clean
 
 git rm
-	A  main/basics/restore/a.txt
-	M  main/basics/restore/restore.sh
+rm 'main/basics/restore/a.txt'
+	D  main/basics/restore/a.txt
 
 git restore --staged
-	M  main/basics/restore/restore.sh
-	?? main/basics/restore/a.txt
+	 D main/basics/restore/a.txt
 
 git restore
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
+	nothing to commit, working tree clean
 
 git commit
-	[main 15c1d5f] m
-	 1 file changed, 1 insertion(+), 1 deletion(-)
-
-On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	a.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
 	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	nothing to commit, working tree clean
+
+rm 'main/basics/restore/a.txt'
+	On branch main
+	nothing to commit, working tree clean
