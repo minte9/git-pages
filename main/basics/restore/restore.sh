@@ -5,11 +5,11 @@
 
 . "../../aliases.sh"
 
-echo "touch"                ; touch b.txt                   ; gs
+echo "touch"                ; touch a.txt                   ; gs
 echo "git add"              ; git add .                   ; gs
 
-echo "git rm"               ; git rm b.txt                  ; gsp
-echo "git restore --staged" ; git restore --staged b.txt    ; gsp
-echo "git restore"          ; git restore b.txt             ; gs
+echo "git rm"               ; git rm a.txt                  ; gsp
+echo "git restore --staged" ; git restore --staged a.txt    ; gsp
+echo "git restore"          ; git restore a.txt             ; gs
 
 git rm -f b.txt ; gc ; gs
