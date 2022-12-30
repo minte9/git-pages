@@ -11,4 +11,6 @@ echo "git rm --cached"      ; git rm --cached a.txt       | tab2lines
 echo "git status"           ; gs
 
 rm a.txt
+rm b.txt
+
 gc
