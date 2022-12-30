@@ -22,6 +22,6 @@ filename=$(basename "$1" | cut -f1 -d.)
 output=`./$1`
 echo "$output" | tee "$filename"".log" 
 
-git add .
+git add -u .
 git add ../../
 git commit -am 'output.sh - update repo' > /dev/null
