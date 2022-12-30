@@ -6,7 +6,7 @@
 . "../../aliases.sh"
 
 echo "touch"            ; touch a.txt                   ; gsp
-echo "git add"          ; git add .                     ; gs
+echo "git add"          ; git add .                     ; gsp
 echo "git commit"       ; git commit -m 'm'             | tab2lines
 
 echo "rm"               ; rm a.txt                      ; gc ; gsp
