@@ -7,7 +7,7 @@
 
 echo "touch"                ; touch a.txt           ; gsp
 echo "git add"              ; git add .             ; gsp
-echo "git rm --cached"      ; git rm --cached --quiet a.txt | tab2lines | gs
+echo "git rm --cached"      ; git rm --cached --quiet a.txt | tab2lines | gsp
 
 echo "git add"              ; git add .             ; gs
 echo "git commit"           ; gc ; gs
