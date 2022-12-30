@@ -13,3 +13,5 @@ echo "git restore --staged" ; git restore --staged a.txt    ; gs
 echo "git restore"          ; git restore a.txt             ; gs
 
 echo "git commit"           ; git commit -m 'm'             | tab2lines
+
+git rm -f a.txt
