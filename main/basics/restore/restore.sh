@@ -15,3 +15,7 @@ echo "git checkout b"   ; git reset HEAD^ Y         ; gc ; gsp
 
 rm X
 rm Y
+git status
+
+git checkout -- X
+git status
