@@ -1,30 +1,33 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git rm
 	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git restore --staged
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git restore
 	On branch main
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+		modified:   restore.sh
+	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		a.txt
 	
-	nothing added to commit but untracked files present (use "git add" to track)
 
 git commit
-	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	[main d918113] m
+	 1 file changed, 1 insertion(+), 2 deletions(-)
 
 On branch main
 Untracked files:
