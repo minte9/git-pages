@@ -9,7 +9,7 @@ To undo a commit use git checkout
 
 echo "touch"            ; touch X Y                 ; gsp
 echo "git add"          ; git add .                 ; gsp
-echo "git restore A"    ; git restore --staged X    ; gsp
+echo "git restore X"    ; git restore --staged X    ; gsp
 echo "git commit"       ; gc                        ; gsp
 echo "git reset Y"      ; git reset HEAD^ Y         ; gc ; gsp  
 
