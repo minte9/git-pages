@@ -15,4 +15,3 @@ echo "git restore"          ; git restore a.txt             ; gs
 echo "git commit"           ; git commit -am 'm'             | tab2lines
 
 git rm -f a.txt ; gc 
-rm a.txt
