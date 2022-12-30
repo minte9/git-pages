@@ -10,6 +10,6 @@ echo "touch"                ; touch a.txt b.txt                 ; gsp
 echo "git add"              ; git add .                         ; gsp
 echo "git restore"          ; git restore --staged a.txt        ; gsp
 
-echo "git commit"           ; gc ; gs
+echo "git commit"           ; gc ; gsp
 rm a.txt
 rm b.txt
