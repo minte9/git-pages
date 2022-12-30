@@ -1,26 +1,22 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git rm --cached
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
-git add
+git restore --staged
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-		new file:   a.txt
+		modified:   restore.sh
 	
-
-git commit
-	On branch main
-	nothing to commit, working tree clean
-
-git rm --cached
-	rm 'main/basics/restore/a.txt'
-
-git status
-	D  main/basics/restore/a.txt
-	?? main/basics/restore/a.txt
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+		a.txt
+	
