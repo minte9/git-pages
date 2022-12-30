@@ -10,3 +10,4 @@ echo "git add"              ; git add .             ; gsp
 echo "git rm --cached"      ; git rm --cached a.txt       | tab2lines
 echo "git status"           ; gs
 
+git rm -f a.txt > /dev/null
