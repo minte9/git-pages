@@ -6,7 +6,7 @@ git add
 	A  main/basics/restore/X
 	A  main/basics/restore/Y
 
-git restore A
+git restore X
 	A  main/basics/restore/Y
 	?? main/basics/restore/X
 
