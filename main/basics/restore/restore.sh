@@ -13,8 +13,8 @@ echo "git restore a"    ; git restore --staged X    ; gsp
 echo "git commit"       ; gc                        ; gsp
 echo "git checkout b"   ; git reset HEAD^ Y         ; gc ; gsp  
 
-rm X
-rm Y
+git rm X
+git rm Y
 git status
 
 git checkout -- X
