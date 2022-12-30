@@ -24,4 +24,4 @@ echo "$output" | tee "$filename"".log"
 
 git add .
 git add ../../
-git commit -a -m 'output.sh - update repo' > /dev/null
+git commit -am 'output.sh - update repo' > /dev/null
