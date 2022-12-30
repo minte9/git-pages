@@ -1,14 +1,29 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git rm --cached
 	rm 'main/basics/restore/a.txt'
 
 git status
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
-On branch main
-nothing to commit, working tree clean
+git add
+	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
+
+git commit
+	On branch main
+	nothing to commit, working tree clean
+
+git rm --cached
+	rm 'main/basics/restore/a.txt'
+
+git status
+	D  main/basics/restore/a.txt
+	?? main/basics/restore/a.txt
