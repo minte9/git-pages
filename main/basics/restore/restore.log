@@ -1,34 +1,23 @@
 touch
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   restore.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
 
 git add
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
+	nothing to commit, working tree clean
 
 git rm --cached
 rm 'main/basics/restore/a.txt'
 	D  main/basics/restore/a.txt
-	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git restore --staged
-	M  main/basics/restore/restore.sh
 
 git restore
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
+	nothing to commit, working tree clean
 
+On branch main
+nothing to commit, working tree clean
 	On branch main
 	nothing to commit, working tree clean
