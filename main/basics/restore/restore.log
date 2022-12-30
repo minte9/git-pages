@@ -1,29 +1,39 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/X
-	?? main/basics/restore/Y
 
 git add
 	A  main/basics/restore/X
-	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 
 git restore a
-	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/X
 
 git commit
 	?? main/basics/restore/X
 
 git rest Y
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	X
+
+nothing added to commit but untracked files present (use "git add" to track)
 	?? main/basics/restore/X
-	?? main/basics/restore/Y
 
 rm X
 git rm Y
-	?? main/basics/restore/Y
+rm 'main/basics/restore/Y'
+	D  main/basics/restore/Y
 
 git add
-	A  main/basics/restore/Y
+	D  main/basics/restore/Y
 
 git commit
+	On branch main
+	nothing to commit, working tree clean
 
 git checkout Y
+	On branch main
+	nothing to commit, working tree clean
