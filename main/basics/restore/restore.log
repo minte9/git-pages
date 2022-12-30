@@ -1,48 +1,33 @@
 touch
-	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	 M main/basics/restore/restore.sh
+	?? main/basics/restore/a.txt
 
 git add
-	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		new file:   a.txt
-	
+	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git rm
-	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		new file:   a.txt
-	
+	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git restore --staged
-	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	M  main/basics/restore/restore.sh
+	?? main/basics/restore/a.txt
 
 git restore
 	On branch main
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+		modified:   restore.sh
+	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		a.txt
 	
-	nothing added to commit but untracked files present (use "git add" to track)
 
 git commit
-	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	[main cfc54f4] m
+	 1 file changed, 4 insertions(+), 4 deletions(-)
 
 On branch main
 Untracked files:
