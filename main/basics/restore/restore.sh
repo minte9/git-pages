@@ -10,7 +10,7 @@ echo "git add"              ; git add .             ; gsp
 echo "git rm "              ; git rm -f a.txt       | tab2lines
 echo "git status"           ; gs
 
-echo "touch"                ; touch b.txt           ; gsp
+echo "touch"                ; touch b.txt           ; gs
 echo "git add"              ; git add .             ; gsp
 echo "git status"           ; gs
 
