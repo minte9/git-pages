@@ -1,39 +1,25 @@
 touch
-	 M main/output.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
-	 M main/output.sh
 
 git rm -f
 	rm 'main/basics/restore/a.txt'
 
 git status
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   ../../output.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
 
 touch
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   ../../output.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
 
 git add
-	 M main/output.sh
 
 git rm --cached
 	rm 'main/basics/restore/b.txt'
 
 git status
 	D  main/basics/restore/b.txt
-	 M main/output.sh
 	?? main/basics/restore/b.txt
