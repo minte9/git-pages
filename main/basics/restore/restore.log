@@ -1,16 +1,13 @@
 touch
-	 M main/basics/restore/restore.sh
 	?? main/basics/restore/X
 	?? main/basics/restore/Y
 
 git add
 	A  main/basics/restore/X
 	A  main/basics/restore/Y
-	M  main/basics/restore/restore.sh
 
 git restore A
 	A  main/basics/restore/Y
-	M  main/basics/restore/restore.sh
 	?? main/basics/restore/X
 
 git commit
