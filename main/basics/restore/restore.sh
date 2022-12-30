@@ -5,7 +5,7 @@
 
 . "../../aliases.sh"
 
-echo "touch"                ; touch a.txt           | gsp
+echo "touch"                ; touch a.txt           ; gsp
 echo "git add"              ; git add .             ; gsp
 echo "git rm -f"            ; git rm -f a.txt       | tab2lines
 echo "git status"           ; gs
@@ -16,7 +16,6 @@ echo "git rm --cached"      ; git rm --cached b.txt | tab2lines
 echo "git status"           ; gsp
 
 git rm -f b.txt > /dev/null
-rm b.txt
 
 #echo "git rm --cached"      ; git rm  --cached a.txt    ; gsp
 #echo "git restore --staged" ; git restore --staged a.txt    ; gsp
