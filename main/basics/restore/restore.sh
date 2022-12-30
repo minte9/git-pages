@@ -11,11 +11,8 @@ echo "touch"            ; touch X Y                 ; gsp
 echo "git add"          ; git add .                 ; gsp
 echo "git restore a"    ; git restore --staged X    ; gsp
 echo "git commit"       ; gc                        ; gsp
-echo "git checkout b"   ; git reset HEAD^ Y         ; gc ; gsp  
+echo "git rest Y"       ; git reset HEAD^ Y         ; gc ; gsp  
 
-rm X
-git rm Y
-git status
-
-git checkout -- Y
-git status
+echo "rm X"             ; rm X
+echo "git rm Y"         ; git rm Y                  ; gs
+echo "git checkout Y"   ; git checkout -- Y         ; gsp
