@@ -8,4 +8,9 @@ git add
 
 git rm 
 	rm 'main/basics/restore/a.txt'
-: gs
+
+	On branch main
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+		modified:   restore.sh
+	
