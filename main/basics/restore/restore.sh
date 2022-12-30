@@ -6,7 +6,7 @@
 . "../../aliases.sh"
 
 echo "touch"                ; touch a.txt                   ; gs
-echo "git add"              ; git add .                     ; gs
+echo "git add"              ; git add -u .                  ; gs
 
 echo "git rm"               ; git rm a.txt                  ; gs
 echo "git restore --staged" ; git restore --staged a.txt    ; gs
