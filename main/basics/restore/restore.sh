@@ -16,7 +16,7 @@ echo "git rm --cached"      ; git rm --cached b.txt | tab2lines
 
 echo "git commit"           ; gc
 echo "git status"           ; gsp
-echo "git restore --staged" ; git restore --staged b.txt | tab2lines | gs
+echo "git restore --staged" ; git restore --staged b.txt | tab2lines | gsp
 
 git rm -f b.txt > /dev/null
 
