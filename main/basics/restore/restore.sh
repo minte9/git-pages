@@ -10,6 +10,3 @@ echo "git add"              ; git add .             ; gsp
 echo "git restore --staged" ; git restore --staged a.txt ; gsp
 
 rm a.txt
-rm b.txt
-
-gc
