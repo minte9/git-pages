@@ -1,8 +1,8 @@
 #!/bin/sh
 
 : "Restore
-Helps to unstage or even discard uncommitted local changes
-To undo a commit use git checkout
+Use restore to unstage
+Use reset (or checkout) to undo commits
 "
 
 . "../../aliases.sh"
