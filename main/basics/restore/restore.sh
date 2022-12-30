@@ -1,8 +1,7 @@
 #!/bin/sh
 
-: "Restore
-Use restore to unstage
-Use reset (or checkout) to undo commits
+: "Restore to unstage
+Reset (or checkout) to undo commits
 "
 
 . "../../aliases.sh"
