@@ -9,7 +9,6 @@ echo "touch"                ; touch a.txt                   ; gs
 echo "git add"              ; git add .                   ; gs
 
 echo "git rm "      ; git rm -f a.txt    ; gsp
-rm a.txt
 
 #echo "git rm --cached"      ; git rm  --cached a.txt    ; gsp
 #echo "git restore --staged" ; git restore --staged a.txt    ; gsp
