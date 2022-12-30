@@ -1,11 +1,8 @@
 touch
-	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
-	M  main/basics/restore/restore.sh
 
 git restore --staged
-	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
