@@ -1,16 +1,11 @@
 touch
-	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git add
 	A  main/basics/restore/a.txt
-	M  main/basics/restore/restore.sh
 
 git rm 
 	rm 'main/basics/restore/a.txt'
 
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
+	nothing to commit, working tree clean
