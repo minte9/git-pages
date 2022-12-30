@@ -1,31 +1,35 @@
 touch
+	 M main/basics/restore/restore.sh
+	?? main/basics/restore/a.txt
 
 git add
+	A  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
-git rm 
+git rm -f
 	rm 'main/basics/restore/a.txt'
 
 git status
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-		deleted:    a.txt
+		modified:   restore.sh
 	
 
 touch
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-		deleted:    a.txt
+		modified:   restore.sh
 	
 
 git add
-	D  main/basics/restore/a.txt
+	M  main/basics/restore/restore.sh
 
 git rm --cached
 	rm 'main/basics/restore/b.txt'
 
 git status
-	D  main/basics/restore/a.txt
 	D  main/basics/restore/b.txt
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/b.txt
