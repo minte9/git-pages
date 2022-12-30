@@ -1,13 +1,16 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/X
 	?? main/basics/restore/Y
 
 git add
 	A  main/basics/restore/X
 	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 
 git restore a
 	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/X
 
 git commit
@@ -16,3 +19,8 @@ git commit
 git checkout b
 	?? main/basics/restore/X
 	?? main/basics/restore/Y
+
+On branch main
+nothing to commit, working tree clean
+On branch main
+nothing to commit, working tree clean
