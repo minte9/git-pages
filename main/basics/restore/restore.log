@@ -1,19 +1,21 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 	?? main/basics/restore/b.txt
 
 git add
 	A  main/basics/restore/a.txt
 	A  main/basics/restore/b.txt
+	M  main/basics/restore/restore.sh
 
 git restore
 	A  main/basics/restore/b.txt
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git commit
 	?? main/basics/restore/a.txt
 
 git checkout
-	D  main/basics/restore/b.txt
 	?? main/basics/restore/a.txt
 	?? main/basics/restore/b.txt
