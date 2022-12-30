@@ -12,6 +12,6 @@ echo "git restore"          ; git restore --staged a.txt        ; gsp
 
 echo "git commit"           ; gc ; gsp
 
-echo "git checkout"         ; git reset HEAD^1 b.txt ; gs
+echo "git checkout"         ; git reset HEAD^1 b.txt ; gsp
 rm a.txt
 rm b.txt
