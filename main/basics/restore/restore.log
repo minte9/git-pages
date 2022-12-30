@@ -1,22 +1,16 @@
 touch
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   restore.sh
-	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		a.txt
 	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing added to commit but untracked files present (use "git add" to track)
 
 git add
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
 		new file:   a.txt
-		modified:   restore.sh
 	
 
 git rm
@@ -24,35 +18,31 @@ git rm
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
 		new file:   a.txt
-		modified:   restore.sh
 	
 
 git restore --staged
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		a.txt
 	
+	nothing added to commit but untracked files present (use "git add" to track)
 
 git restore
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		modified:   restore.sh
-	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		a.txt
 	
+	nothing added to commit but untracked files present (use "git add" to track)
 
 git commit
-	[main 405b9a9] m
-	 1 file changed, 0 insertions(+), 0 deletions(-)
-	 mode change 100644 => 100755 main/basics/restore/restore.sh
+	On branch main
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+		a.txt
+	
+	nothing added to commit but untracked files present (use "git add" to track)
 
 On branch main
 Untracked files:
