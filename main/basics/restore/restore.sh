@@ -13,6 +13,8 @@ echo "git status"           ; gs
 echo "touch"                ; touch b.txt           ; gsp
 echo "git add"              ; git add .             ; gsp
 echo "git rm --cached"      ; git rm --cached b.txt | tab2lines | gs
+
+echo "git commit"           ; gc ; gsp
 echo "git restore --staged" ; git restore --staged b.txt | tab2lines | gs
 
 git rm -f b.txt > /dev/null
