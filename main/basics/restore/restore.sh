@@ -1,6 +1,7 @@
 #!/bin/sh
 
 : "Restore
+Helps to unstage or even discard uncommitted local changes
 "
 
 . "../../aliases.sh"
