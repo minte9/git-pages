@@ -1,14 +1,29 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 	?? main/basics/restore/b.txt
 
 git add
 	A  main/basics/restore/a.txt
 	A  main/basics/restore/b.txt
+	M  main/basics/restore/restore.sh
 
 git restore
 	A  main/basics/restore/b.txt
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/a.txt
 
 git commit
 	?? main/basics/restore/a.txt
+
+git checkout
+	On branch main
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+		deleted:    b.txt
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+		a.txt
+		b.txt
+	
