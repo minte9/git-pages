@@ -5,7 +5,7 @@
 
 . "../../aliases.sh"
 
-echo "touch"                ; touch bin.txt                   ; gs
+echo "touch"                ; touch b.txt                   ; gs
 echo "git add"              ; git add  .                    ; gs
 
 echo "git rm"               ; git rm b.txt                  ; gsp
