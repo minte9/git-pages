@@ -14,4 +14,3 @@ echo "git restore --staged" ; git restore --staged a.txt    ; gs
 echo "git restore"          ; git restore a.txt             ; gs
 
 git rm -f a.txt > /dev/null
-rm a.txt
