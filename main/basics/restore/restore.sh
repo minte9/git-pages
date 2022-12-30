@@ -13,9 +13,9 @@ echo "git restore a"    ; git restore --staged X    ; gsp
 echo "git commit"       ; gc                        ; gsp
 echo "git checkout b"   ; git reset HEAD^ Y         ; gc ; gsp  
 
-git rm -f X
-git rm -f Y
+rm X
+git rm Y
 git status
 
-git checkout -- X
+git checkout -- Y
 git status
