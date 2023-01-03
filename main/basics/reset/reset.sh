@@ -19,7 +19,7 @@ git add .
     echo "git add"
     gsp
 
-git commit -aqm 'm' | tab2lines
+git commit -aqm 'File a.txt added' | tab2lines
     echo "git commit" 
     gs
 
