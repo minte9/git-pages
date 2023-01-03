@@ -41,7 +41,6 @@ git reset HEAD~1 | tab2lines
 git add .
 git commit -aqm 'm'
     echo "git commit"
-    gsp
-
-             
+    gs
+     
 git rm -f a.txt > /dev/null
