@@ -25,7 +25,7 @@ git commit -mq "m"
     echo "-- git commit"
     echo "Repository:" ; gs
 
-git rm -q myfile.tmp
+git rm myfile.tmp
     echo "-- git rm"
     echo "Staging area:" ; gsp
 

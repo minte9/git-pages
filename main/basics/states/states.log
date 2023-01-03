@@ -1,22 +1,25 @@
 -- touch
 Working tree:
-	?? main/basics/states/myfile.tmp
+	 M main/basics/states/states.sh
 -- git add
 Stagin area:
-	A  main/basics/states/myfile.tmp
+	M  main/basics/states/states.sh
 -- git commit
 Repository:
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-		new file:   myfile.tmp
+		modified:   states.sh
 	
+rm 'main/basics/states/myfile.tmp'
 -- git rm
 Staging area:
-	A  main/basics/states/myfile.tmp
+	D  main/basics/states/myfile.tmp
+	M  main/basics/states/states.sh
 -- git commit / Repository:
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
-		new file:   myfile.tmp
+		deleted:    myfile.tmp
+		modified:   states.sh
 	
