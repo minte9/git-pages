@@ -19,7 +19,7 @@ touch myfile.tmp
 
 git add .                       
     echo "git add"
-    echo "Stagin Area:"; gsp
+    echo "Staging Area:"; gsp
 
 git commit -qm "m"
     echo "git commit"
