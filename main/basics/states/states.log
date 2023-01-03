@@ -1,13 +1,11 @@
 -- touch
 Working tree:
-	 M main/basics/states/states.sh
 	?? main/basics/states/myfile.tmp
 -- git add
 Stagin area:
 	A  main/basics/states/myfile.tmp
-	M  main/basics/states/states.sh
-[main 546cbd1] m
- 2 files changed, 2 insertions(+), 2 deletions(-)
+[main bebc78b] m
+ 1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 main/basics/states/myfile.tmp
 -- git commit
 Repository:
@@ -17,7 +15,7 @@ rm 'main/basics/states/myfile.tmp'
 -- git rm
 Staging area:
 	D  main/basics/states/myfile.tmp
-[main 168a1d7] m
+[main 2adade5] m
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 main/basics/states/myfile.tmp
 -- git commit / Repository:
