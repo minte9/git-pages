@@ -8,12 +8,9 @@ HEAD^   / refers to the commit before the current commit
 
 . "../../aliases.sh"
 
-touch myfile.tmp
-    echo "touch"
+echo "A" > myfile.tmp  
+    echo "touch & write"
     gsp
-       
-echo "write"                ; echo "A" > myfile.tmp     ; gsp
-echo "git add + commit"     ; 
 
 git add .
 git commit -qm 'm'
