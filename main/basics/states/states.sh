@@ -22,5 +22,7 @@ git add .
 git commit -mq "m"   
     echo "-- git commit"; echo "Repository:" ; gs
 
-git rm myfile.tmp > /dev/null   ; echo "git rm / Staging area:"         ; gsp
+git rm -q myfile.tmp
+    echo "git rm"; echo "Staging area:" ; gsp
+    
 git commit -m "m" > /dev/null   ; echo "git commit / Repository:"       ; gs
