@@ -12,7 +12,7 @@ alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
 alias tab2lines="sed 's/^/\t/'; echo"
 
 touch a.txt
-echo "touch"; gsp
+    echo "touch"; gsp
 
 git add .
     echo "git add"; gsp
@@ -27,7 +27,7 @@ git reset --soft HEAD~1
 
 git commit -aqm 'm'
     echo "git commit"; gs
-    
+
 git reset HEAD~1 | tab2lines
     echo "Reset ~1"; gsp
 
