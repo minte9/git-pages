@@ -12,7 +12,7 @@ touch a.txt b.tmp
     echo "Working tree:"; gsp
 
 echo "*.tmp" > .gitignore
-    echo ".gitignore"
+    echo "touch .gitignore"
     echo "Working tree:"; gsp
 
 git add .
