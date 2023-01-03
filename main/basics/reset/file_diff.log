@@ -1,11 +1,14 @@
 touch
+	 M main/basics/reset/file_diff.sh
 
 write A
+	 M main/basics/reset/file_diff.sh
 	?? main/basics/reset/myfile.tmp
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
+
 overwrite
 	 M main/basics/reset/myfile.tmp
 
