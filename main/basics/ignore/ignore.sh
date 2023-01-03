@@ -22,8 +22,9 @@ git commit -qm 'm'
     echo "Repository:"; gs
 
 rm b.tmp 
-git rm -q .gitignore a.txt
-    echo "git rm"
+git rm -q .gitignore
+git rm -q a.txt
+    echo "git rm .gitignore & a.txt"
     echo "Repository:"; gsp
 
 git add .
