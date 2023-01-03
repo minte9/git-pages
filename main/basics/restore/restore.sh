@@ -25,7 +25,7 @@ git reset HEAD^ Y
 
 git add .
 git commit -qm 'm'
-    echo "git commit"; gsp
+    echo "git commit"; gs
 
 rm X
 rm Y
