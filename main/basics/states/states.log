@@ -1,7 +1,14 @@
 -- touch
 Working tree:
+	 M main/basics/states/states.sh
+	?? main/basics/states/myfile.tmp
 -- git add
 Stagin area:
+	A  main/basics/states/myfile.tmp
+	M  main/basics/states/states.sh
+[main 546cbd1] m
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 main/basics/states/myfile.tmp
 -- git commit
 Repository:
 	On branch main
@@ -10,9 +17,9 @@ rm 'main/basics/states/myfile.tmp'
 -- git rm
 Staging area:
 	D  main/basics/states/myfile.tmp
+[main 168a1d7] m
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 main/basics/states/myfile.tmp
 -- git commit / Repository:
 	On branch main
-	Changes to be committed:
-	  (use "git restore --staged <file>..." to unstage)
-		deleted:    myfile.tmp
-	
+	nothing to commit, working tree clean
