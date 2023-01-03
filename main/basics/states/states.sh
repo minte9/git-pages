@@ -17,17 +17,13 @@ touch myfile.tmp
     echo "touch; Working Tree:"; gsp  
 
 git add .                       
-    echo "git add"
-    echo "Staging Area:"; gsp
+    echo "git add; Staging Area:"; gsp
 
 git commit -qm "m"
-    echo "git commit"
-    echo "Repository:"; gs
+    echo "git commit; Repository:"; gs
 
 git rm -q myfile.tmp 
-    echo "git rm"
-    echo "Staging Area:"; gsp
+    echo "git rm; Staging Area:"; gsp
 
 git commit -qm "m" 
-    echo "git commit"
-    echo "Repository:"; gs
+    echo "git commit; Repository:"; gs
