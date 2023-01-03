@@ -33,7 +33,7 @@ git commit -aqm 'm'
     echo "git commit"
     gs
 
-git reset HEAD~1 | tab2lines # Look Here
+git reset HEAD~1 | tab2lines
     echo "Reset ~1"
     gsp
 
