@@ -1,26 +1,32 @@
 touch
+	On branch main
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   reset.sh
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
 
 git add
+	M  main/basics/reset/reset.sh
 
-	On branch main
-	nothing to commit, working tree clean
+	[main 9b58b20] My commit
+	 1 file changed, 1 insertion(+), 1 deletion(-)
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	98462d0 output.sh - update repo
+	9b58b20 My commit
 
 git last log
 	On branch main
 	nothing to commit, working tree clean
 
 Reset soft ~1
-	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.log
+	M  main/basics/reset/reset.sh
 
 Unstaged changes after reset:
-M	main/basics/reset/reset.log
+M	main/basics/reset/reset.sh
 Reset ~1
-	 M main/basics/reset/reset.log
-	?? main/basics/reset/a.txt
+	 M main/basics/reset/reset.sh
