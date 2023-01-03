@@ -1,27 +1,30 @@
 touch
+	 M main/basics/reset/reset.sh
 
 git add
+	M  main/basics/reset/reset.sh
 
-	On branch main
-	nothing to commit, working tree clean
+	[main 9a3cf15] My commit
+	 1 file changed, 3 insertions(+), 1 deletion(-)
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	07030a5 output.sh - update repo
+	9a3cf15 My commit
 
 git last log
 	On branch main
 	nothing to commit, working tree clean
 
 Reset soft ~1
-	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.log
+	M  main/basics/reset/reset.sh
 
 	Unstaged changes after reset:
-	M	main/basics/reset/reset.log
+	M	main/basics/reset/reset.sh
 
 Reset ~1
-	 M main/basics/reset/reset.log
-	?? main/basics/reset/a.txt
+	 M main/basics/reset/reset.sh
+
+	On branch main
+	nothing to commit, working tree clean
