@@ -38,14 +38,11 @@ git commit -am 'm'
 git reset HEAD~1 | tab2lines 
     echo "Reset ~1"
     gsp
-    
+
 git commit -am 'm'
     echo "git commit"
-    gs
+    gsp
 
              
 git rm -f a.txt > /dev/null
-gc
-gs
-
 rm a.txt
