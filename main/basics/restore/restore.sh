@@ -18,14 +18,14 @@ git restore --staged X
 
 git add .
 git commit -qm 'm'
-    echo "git commit"; gsp
+    echo "git commit"; gs
 
 git reset HEAD^ Y 
     echo "git reset Y"; gsp
 
 git add .
 git commit -qm 'm'
-    echo "git commit"; gsp
+    echo "git commit"; gs
 
 rm X
 rm Y
