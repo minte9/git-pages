@@ -22,6 +22,7 @@ git commit -qm 'm'
 
 echo "B" > myfile.tmp
     echo "overwrite"; gsp; 
+    
 echo "C" >> myfile.tmp
     echo "write"; gsp
 
