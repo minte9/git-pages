@@ -8,7 +8,7 @@ alias gs="git status | sed 's/^/\t/' ; echo"
 alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
 
 touch a.txt b.tmp
-    echo "touch"
+    echo "touch a b"
     echo "Working tree:"; gsp
 
 touch .gitignore
@@ -24,7 +24,8 @@ git commit -qm 'm'
 rm b.tmp 
 git rm -q .gitignore
 git rm -q a.txt
-    echo "git rm .gitignore & a.txt"
+    echo "git rm .gitignore"
+    echo "git rm a.txt"
     echo "Repository:"; gsp
 
 git add .
