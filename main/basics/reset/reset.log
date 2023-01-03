@@ -1,31 +1,25 @@
 touch
-	 M main/basics/reset/file_diff.sh
 	?? main/basics/reset/a.txt
 
 git add
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/file_diff.sh
 
 git commit
-	[main a441184] My commit
-	 2 files changed, 12 insertions(+), 12 deletions(-)
+	[main 65f263a] My commit
+	 1 file changed, 0 insertions(+), 0 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
 git last log
-	a441184 My commit
+	65f263a My commit
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/file_diff.sh
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
-	Unstaged changes after reset:
-	M	main/basics/reset/file_diff.sh
 
 Reset ~1
-	 M main/basics/reset/file_diff.sh
 	?? main/basics/reset/a.txt
 
 git commit
