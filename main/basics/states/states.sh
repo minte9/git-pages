@@ -14,16 +14,21 @@ alias gs="git status | sed 's/^/\t/'"
 alias gsp="git status --porcelain | sed 's/^/\t/'"
 
 touch myfile.tmp
-    echo "touch; Working Tree:"; gsp  
+    echo "touch"
+    echo "Working Tree:"; gsp  
 
 git add .                       
-    echo "git add; Staging Area:"; gsp
+    echo "git add"
+    echo "Staging Area:"; gsp
 
 git commit -qm "m"
-    echo "git commit; Repository:"; gs
+    echo "git commit"
+    echo "Repository:"; gs
 
 git rm -q myfile.tmp 
-    echo "git rm; Staging Area:"; gsp
+    echo "git rm"
+    echo "Staging Area:"; gsp
 
 git commit -qm "m" 
-    echo "git commit; Repository:"; gs
+    echo "git commit"
+    echo "Repository:"; gs
