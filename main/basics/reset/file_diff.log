@@ -1,4 +1,8 @@
-touch & write
+touch
+	?? main/basics/reset/myfile
+
+write A
+	?? main/basics/reset/myfile
 	?? main/basics/reset/myfile.tmp
 
 git commit
