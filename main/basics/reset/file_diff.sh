@@ -13,14 +13,17 @@ alias tab2lines="sed 's/^/\t/'; echo"
 touch myfile
     echo "touch"; gsp
 
-echo "A" > myfile.tmp ; echo "write A"; gsp 
+echo "A" > myfile.tmp
+    echo "write A"; gsp 
 
 git add .
 git commit -qm 'm'
     echo "git commit"; gs
 
-echo "B" > myfile.tmp; echo "overwrite"; gsp; 
-echo "C" >> myfile.tmp; echo "write"; gsp
+echo "B" > myfile.tmp
+    echo "overwrite"; gsp; 
+echo "C" >> myfile.tmp
+    echo "write"; gsp
 
     echo "git diff"
 git diff HEAD myfile.tmp  | tab2lines
