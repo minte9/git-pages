@@ -9,25 +9,25 @@ alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
 
 touch a.txt b.tmp
     echo "touch a b"
-gsp
+    gsp
 
 echo "*.tmp" > .gitignore
     echo "*.tmp > .gitignore"
-gsp
+    gsp
 
 git add .
     echo "git add ."
-gsp
+    gsp
 
 git commit -qm 'm'
     echo "git commit"
-gs
+    gs
 
 git rm -q .gitignore
 git rm -q a.txt
 rm b.tmp 
     echo "git rm a .gitignore / rm b"
-gsp
+    gsp
 
 git commit -aqm 'm'
     echo "git commit -a"
