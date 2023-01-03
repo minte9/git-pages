@@ -31,4 +31,4 @@ rm b.tmp
 
 git commit -aqm 'm'
     echo "git commit -a"
-gs
+    gs
