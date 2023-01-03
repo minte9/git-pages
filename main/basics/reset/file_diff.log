@@ -1,15 +1,24 @@
 write A
+	 D main/basics/reset/myfile
+	 M main/basics/restore/restore.sh
 	?? main/basics/reset/myfile.tmp
 
 git commit
 	On branch main
-	nothing to commit, working tree clean
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   ../restore/restore.sh
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
 
 overwrite
 	 M main/basics/reset/myfile.tmp
+	 M main/basics/restore/restore.sh
 
 write
 	 M main/basics/reset/myfile.tmp
+	 M main/basics/restore/restore.sh
 
 git diff
 	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
@@ -23,4 +32,9 @@ git diff
 
 git commit
 	On branch main
-	nothing to commit, working tree clean
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   ../restore/restore.sh
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
