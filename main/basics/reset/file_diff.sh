@@ -13,8 +13,13 @@ touch myfile.tmp
     gsp
        
 echo "write"                ; echo "A" > myfile.tmp     ; gsp
-echo "git add + commit"     ; gc ; gs
+echo "git add + commit"     ; 
 
+git add .
+git commit -qm 'm'
+    echo "git commit"
+    gs
+    
 echo "overwrite"            ; echo "B" > myfile.tmp     ; gsp
 echo "write"                ; echo "C" >> myfile.tmp    ; gsp
 echo "git diff"             ; git diff HEAD myfile.tmp  | tab2lines
