@@ -1,12 +1,10 @@
 touch a b
 Working:
-	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/a.txt
 	?? main/basics/ignore/b.tmp
 
 touch .gitignore
 Working:
-	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/.gitignore
 	?? main/basics/ignore/a.txt
 
@@ -14,7 +12,6 @@ git add .
 Staging: 
 	A  main/basics/ignore/.gitignore
 	A  main/basics/ignore/a.txt
-	M  main/basics/ignore/ignore.sh
 
 git commit
 Repository:
