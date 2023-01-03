@@ -40,5 +40,6 @@ git reset HEAD~1 | tab2lines
 
              
 git rm -f a.txt > /dev/null
+rm a.txt
 gc
 gs
