@@ -37,5 +37,7 @@ git reset HEAD~1
     echo "Reset ~1"
     gsp
     gc
-                  
+
+             
 git rm -f a.txt > /dev/null
+rm -f a.txt
