@@ -6,7 +6,7 @@ git commit
 	On branch main
 	nothing to commit, working tree clean
 git last log
-	f3401bb File a.txt added
+	26f374f File a.txt added
 Reset soft ~1
 	A  main/basics/reset/a.txt
 git commit
