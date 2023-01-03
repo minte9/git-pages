@@ -16,12 +16,14 @@ git add .
 git restore --staged X 
     echo "git restore X"; gsp
 
+git add .
 git commit -aqm 'm'
     echo "git commit"; gs
 
 git reset HEAD^ Y 
     echo "git reset Y"; gsp
 
+git add .
 git commit -aqm 'm'
     echo "git commit"; gsp
 
