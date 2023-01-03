@@ -38,7 +38,7 @@ git reset HEAD~1 | tab2lines
     gsp
 
 git add .
-git commit -aqm 'm'
+git commit -qm 'm'
     echo "git commit"
     gs
 
