@@ -1,21 +1,19 @@
 touch
-	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
 git add
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 git commit
 	On branch main
 	nothing to commit, working tree clean
 git last log
-	13b2a83 File a.txt added
+	26bf37d File a.txt added
 Reset soft ~1
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 git commit
 	On branch main
 	nothing to commit, working tree clean
-	Unstaged changes after reset:
-	M	main/basics/reset/reset.sh
 Reset ~1
-	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
 git commit
 	On branch main
 	nothing to commit, working tree clean
