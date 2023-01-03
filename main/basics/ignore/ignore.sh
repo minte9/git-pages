@@ -11,24 +11,25 @@ touch a.txt b.tmp
     echo "touch a b"
     echo "Working tree:"; gsp
 
-touch .gitignore
 echo "*.tmp" > .gitignore
     echo ".gitignore"
     echo "Working tree:"; gsp
 
 git add .
+    echo "git add ."; gsp
+
 git commit -qm 'm'
     echo "git commit"
     echo "Repository:"; gs
 
-rm b.tmp 
 git rm -q .gitignore
 git rm -q a.txt
+rm b.tmp 
     echo "git rm .gitignore"
-    echo "git rm a.txt"
+    echo "git rm a"
+    echo "rm b"
     echo "Repository:"; gsp
 
-git add .
-git commit -qm 'm'
+git commit -aqm 'm'
     echo "git commit"
     echo "Repository:"; gs
