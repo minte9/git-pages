@@ -38,4 +38,4 @@ git reset HEAD~1
     gsp
     gc
                   
-git rm -fq a.txt
+git rm -f a.txt > /dev/null
