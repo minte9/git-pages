@@ -24,7 +24,7 @@ git commit -aqm 'm' | tab2lines
     gs
 
     echo "git last log"
-git log -n 1 | tab2lines 
+git log -n 1 --oneline | tab2lines 
 
 git reset --soft HEAD~1
     echo "Reset soft ~1"
