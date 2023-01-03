@@ -15,11 +15,11 @@ alias gsp="git status --porcelain | sed 's/^/\t/'"
 
 touch myfile.tmp
     echo "touch"
-    echo ": Working Tree:"; gsp  
+    echo "Working Tree:"; gsp  
 
 git add .                       
     echo "git add"
-    echo "# Staging Area:"; gsp
+    echo "Staging Area:"; gsp
 
 git commit -qm "m"
     echo "git commit"
