@@ -42,5 +42,6 @@ git add .
 git commit -aqm 'm'
     echo "git commit"
     gs
-     
-git rm -f a.txt > /dev/null
+
+#git rm -f a.txt > /dev/null
+#    echo "git rm"
