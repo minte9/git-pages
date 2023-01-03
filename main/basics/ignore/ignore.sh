@@ -9,14 +9,15 @@ alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
 
 touch a.txt b.tmp
     echo "touch a b"
-    echo "Working tree:"; gsp
+    echo "Working:"; gsp
 
 echo "*.tmp" > .gitignore
     echo "touch .gitignore"
-    echo "Working tree:"; gsp
+    echo "Working:"; gsp
 
 git add .
-    echo "git add ."; gsp
+    echo "git add .";
+    echo "Staging: "; gsp
 
 git commit -qm 'm'
     echo "git commit"
