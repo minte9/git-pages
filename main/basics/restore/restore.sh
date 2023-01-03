@@ -3,13 +3,29 @@
 : "Restore to unstage / Reset to undo commits
 "
 
-. "../../aliases.sh"
+alias gs="git status | sed 's/^/\t/'; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
+alias tab2lines="sed 's/^/\t/'; echo"
 
-echo "touch"            ; touch X Y                 ; gsp
-echo "git add"          ; git add .                 ; gsp
-echo "git restore X"    ; git restore --staged X    ; gsp
-echo "git commit"       ; gc                        ; gsp
-echo "git reset Y"      ; git reset HEAD^ Y         ; gc ; gsp  
+touch X Y
+    echo "touch"; gsp
+
+git add .
+    echo "git add"; gsp
+
+git restore --staged X 
+    echo "git restore X"; gsp
+
+git add .
+git commit -qm 'm'
+    echo "git commit"; gsp
+
+git reset HEAD^ Y 
+    echo "git reset Y"; gsp
+
+git add .
+git commit -qm 'm'
+    echo "git commit"; gsp
 
 rm X
 rm Y
