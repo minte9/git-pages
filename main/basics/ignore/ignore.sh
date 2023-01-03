@@ -1,7 +1,7 @@
 #!/bin/sh
 
-: "Create a file .gitignore containing a list of patterns to match
-Use . (source command) to exectute aliases.sh in the current shell
+: "Create a file .gitignore 
+The file contains a list of patterns to match
 "
 
 alias gs="git status | sed 's/^/\t/' ; echo"
