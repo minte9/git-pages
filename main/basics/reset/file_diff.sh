@@ -11,7 +11,7 @@ HEAD^   / refers to the commit before the current commit
 touch myfile.tmp
     echo "touch"
     gsp
-
+       
 echo "write"                ; echo "A" > myfile.tmp     ; gsp
 echo "git add + commit"     ; gc ; gs
 
@@ -24,4 +24,4 @@ git commit -qm 'm'
     echo "git commit"
     gs
 
-git rm -f a.txt > /dev/null
+git rm -f myfile.tmp > /dev/null
