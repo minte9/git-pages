@@ -4,14 +4,29 @@
 Use . (source command) to exectute aliases.sh in the current shell
 "
 
-. "../../aliases.sh"
+alias gs="git status | sed 's/^/\t/' ; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/' ; echo"
 
-touch a.txt b.tmp                   ; echo "touch / Working tree:"      ; gsp
+touch a.txt b.tmp
+    echo "touch"
+    echo "Working tree:"; gsp
+
 touch .gitignore
-echo "*.tmp" > .gitignore           ; echo ".gitignore / Working tree:" ; gsp
+echo "*.tmp" > .gitignore
+    echo ".gitignore"
+    echo "Working tree:"; gsp
+
 git add .
-git commit -m 'm' > /dev/null       ; echo "git commit / Repository:"   ; gs
+git commit -qm 'm'
+    echo "git commit"
+    echo "Repository:"; gs
+
 rm b.tmp 
-git rm .gitignore a.txt > /dev/null ; echo "git rm / Repository:"       ; gsp
+git rm -q .gitignore a.txt
+    echo "git rm"
+    echo "Repository:"; gsp
+
 git add .
-git commit -m 'm' > /dev/null       ; echo "git commit / Repository:"   ; gs
+git commit -qm 'm'
+    echo "git commit"
+    echo "Repository:"; gs
