@@ -10,9 +10,6 @@ alias gs="git status | sed 's/^/\t/'; echo"
 alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
 alias tab2lines="sed 's/^/\t/'; echo"
 
-touch myfile
-    echo "touch"; gsp
-
 echo "A" > myfile.tmp
     echo "write A"; gsp 
 
