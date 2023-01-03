@@ -1,24 +1,15 @@
 touch
-	 M main/basics/remove/remove.sh
 	?? main/basics/remove/a.tmp
 
 git add
 	A  main/basics/remove/a.tmp
-	 M main/basics/remove/remove.sh
 
 git rm --cached
-	 M main/basics/remove/remove.sh
 	?? main/basics/remove/a.tmp
 
 git add
 	A  main/basics/remove/a.tmp
-	 M main/basics/remove/remove.sh
 
 git rm -f
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   remove.sh
-	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing to commit, working tree clean
