@@ -1,18 +1,28 @@
 touch
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 git add
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 git commit
 	On branch main
 	nothing to commit, working tree clean
 git last log
-	6c97670 m
+	commit fbe5b5f4afd0c9958d3f8e94b3adfe8e54c68e15
+	Author: minte9 <catalinprescure@gmail.com>
+	Date:   Tue Jan 3 13:17:25 2023 +0200
+	
+	    m
 Reset soft ~1
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 git commit
 	On branch main
 	nothing to commit, working tree clean
+	Unstaged changes after reset:
+	M	main/basics/reset/reset.sh
 Reset ~1
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 git commit
 	On branch main
