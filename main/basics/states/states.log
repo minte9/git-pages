@@ -1,21 +1,15 @@
 Working tree:
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   states.sh
-	
 	Untracked files:
 	  (use "git add <file>..." to include in what will be committed)
 		myfile.tmp
 	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing added to commit but untracked files present (use "git add" to track)
 Staging area:
 	On branch main
 	Changes to be committed:
 	  (use "git restore --staged <file>..." to unstage)
 		new file:   myfile.tmp
-		modified:   states.sh
 	
 Repository:
 	On branch main
