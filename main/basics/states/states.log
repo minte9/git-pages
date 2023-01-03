@@ -1,15 +1,17 @@
 touch
-Working tree:
+Working Tree:
+	 M main/basics/states/states.sh
 	?? main/basics/states/myfile.tmp
 git add
-Stagin area:
+Stagin Area:
 	A  main/basics/states/myfile.tmp
+	M  main/basics/states/states.sh
 git commit
 Repository:
 	On branch main
 	nothing to commit, working tree clean
 git rm
-Staging area:
+Staging Area:
 	D  main/basics/states/myfile.tmp
 git commit
 Repository:
