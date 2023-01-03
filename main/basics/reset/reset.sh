@@ -13,6 +13,7 @@ alias tab2lines="sed 's/^/\t/'; echo"
 
 touch a.txt
     echo "touch"; gsp
+
 git add .
     echo "git add"; gsp
     echo "git commit" 
