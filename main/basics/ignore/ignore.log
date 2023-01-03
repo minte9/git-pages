@@ -1,23 +1,26 @@
 touch a b
 Working tree:
+	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/a.txt
 	?? main/basics/ignore/b.tmp
 
 touch .gitignore
 Working tree:
+	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/.gitignore
 	?? main/basics/ignore/a.txt
 
 git add .
 	A  main/basics/ignore/.gitignore
 	A  main/basics/ignore/a.txt
+	M  main/basics/ignore/ignore.sh
 
 git commit
 Repository:
 	On branch main
 	nothing to commit, working tree clean
 
-git rm a b .gitignore
+git rm a .gitignore / rm b
 Repository:
 	D  main/basics/ignore/.gitignore
 	D  main/basics/ignore/a.txt
