@@ -1,16 +1,14 @@
 touch; Working Tree:
+	 M main/basics/states/states.sh
 	?? main/basics/states/myfile.tmp
-git add
-Staging Area:
+git add; Staging Area:
 	A  main/basics/states/myfile.tmp
-git commit
-Repository:
+	M  main/basics/states/states.sh
+git commit; Repository:
 	On branch main
 	nothing to commit, working tree clean
-git rm
-Staging Area:
+git rm; Staging Area:
 	D  main/basics/states/myfile.tmp
-git commit
-Repository:
+git commit; Repository:
 	On branch main
 	nothing to commit, working tree clean
