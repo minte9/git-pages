@@ -1,6 +1,6 @@
 #!/bin/sh
 
-: "Create a file .gitignore 
+: ".gitignore 
 The file contains a list of patterns to match
 "
 
