@@ -8,7 +8,7 @@ git commit
 	On branch main
 	nothing to commit, working tree clean
 git last log
-	e6c4f11 File a.txt added
+	cc35616 File a.txt added
 Reset soft ~1
 	A  main/basics/reset/a.txt
 	M  main/basics/reset/reset.sh
@@ -23,5 +23,3 @@ Reset ~1
 git commit
 	On branch main
 	nothing to commit, working tree clean
-git rm
-clean
