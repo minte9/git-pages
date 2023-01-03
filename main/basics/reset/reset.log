@@ -1,21 +1,15 @@
 touch
-	 M main/basics/reset/reset.sh
-	?? main/basics/reset/a.txt
 
 git add
-	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
-	[main 6d366b1] My commit
-	 2 files changed, 41 insertions(+), 19 deletions(-)
-	 create mode 100644 main/basics/reset/a.txt
-	 rewrite main/basics/reset/reset.sh (61%)
+	On branch main
+	nothing to commit, working tree clean
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	6d366b1 My commit
+	98462d0 output.sh - update repo
 
 git last log
 	On branch main
@@ -23,10 +17,10 @@ git last log
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
+	M  main/basics/reset/reset.log
 
 Unstaged changes after reset:
-M	main/basics/reset/reset.sh
+M	main/basics/reset/reset.log
 Reset ~1
-	 M main/basics/reset/reset.sh
+	 M main/basics/reset/reset.log
 	?? main/basics/reset/a.txt
