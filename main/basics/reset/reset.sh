@@ -14,7 +14,7 @@ alias gc="git add -u . ; git commit -am 'm' --quiet"
 
 touch a.txt
     echo "touch"
-    gsp
+    gs
 
 git add .
     echo "git add"
