@@ -21,7 +21,7 @@ git add .
     echo "git add"
     echo "Stagin Area:"; gsp
 
-git commit -m -q "m"
+git commit -qm "m"
     echo "git commit"
     echo "Repository:"; gs
 
