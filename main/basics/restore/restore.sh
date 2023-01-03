@@ -20,7 +20,7 @@ git add .
 git commit -qm 'm'
     echo "git commit"; gs
 
-git reset HEAD^ Y 
+git reset -q HEAD^ Y 
     echo "git reset Y"; gsp
 
 git add .
