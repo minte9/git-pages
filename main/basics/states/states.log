@@ -1,9 +1,7 @@
 Working tree:
-	 M main/basics/states/states.sh
 	?? main/basics/states/myfile.tmp
 Staging area:
 	A  main/basics/states/myfile.tmp
-	M  main/basics/states/states.sh
 Repository:
 	On branch main
 	nothing to commit, working tree clean
