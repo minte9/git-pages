@@ -13,10 +13,8 @@ GIT stores everything in his database using hashes
 alias gsp="git status --porcelain | sed 's/^/\t/'"
 alias gs="git status | sed 's/^/\t/'"
 
-echo "touch"
-echo "Working tree:"
-touch myfile.tmp    
-gsp
+touch myfile.tmp
+echo "touch" ; echo "Working tree:" ; gsp  
 
 
 git add .                       ; echo "git add / Staging area:"        ; gsp
