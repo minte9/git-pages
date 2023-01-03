@@ -33,7 +33,7 @@ git reset --soft HEAD~1
     gsp
     gc
 
-git reset HEAD~1
+git reset HEAD~1 | tab2lines 
     echo "Reset ~1"
     gsp
     gc
