@@ -10,8 +10,8 @@ The history of the project is on the local disk
 GIT stores everything in his database using hashes
 "
 
-alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
-alias gs="git status | sed 's/^/\t/'; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/'"
+alias gs="git status | sed 's/^/\t/'"
 
 touch myfile.tmp                ; echo "touch / Working tree:"        ; gsp
 git add .                       ; echo "git add . / Staging area:"    ; gsp
