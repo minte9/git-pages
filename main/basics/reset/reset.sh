@@ -7,13 +7,35 @@ Reset hard  / modifications are removed, but stored in gargage
 You can get the commit back as long as it was within a few days
 "
 
-. "../../aliases.sh"
+alias gs="git status | sed 's/^/\t/'; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
+alias tab2lines="sed 's/^/\t/' ; echo"
+alias gc="git add -u . ; git commit -am 'm' --quiet"
 
-echo "touch"            ; touch a.txt                   ; gsp
-echo "git add"          ; git add .                     ; gsp
-echo "git commit"       ; git commit -m 'My commit'     | tab2lines
-echo "git last log"     ; git log -n 1 --oneline        | tab2lines 
-echo "Reset soft ~1"    ; git reset --soft HEAD~1       ; gsp ; gc
-echo "Reset ~1"         ; git reset HEAD~1              ; gsp ; gc
+touch a.txt
+    echo "touch"
+    gsp
+
+git add .
+    echo "git add"
+    gsp
+
+git commit -m 'My commit' | tab2lines
+    echo "git commit" 
+    gs
+
+git log -n 1 --oneline | tab2lines 
+    echo "git last log"
+    gs
+
+git reset --soft HEAD~1
+    echo "Reset soft ~1"
+    gsp
+    gc
+
+git reset HEAD~1
+    echo "Reset ~1"
+    gsp
+    gc
                   
-git rm -f a.txt > /dev/null
+git rm -fq a.txt
