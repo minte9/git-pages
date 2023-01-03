@@ -23,12 +23,12 @@ git add .
 
 git commit -qm "m"
     echo "git commit"
-    echo "Repository:"; gs
+    echo "\t Repository:"; gs
 
 git rm -q myfile.tmp 
     echo "git rm"
-    echo "Staging Area:"; gsp
+    echo "\t Staging Area:"; gsp
 
 git commit -qm "m" 
     echo "git commit"
-    echo "Repository:"; gs
+    echo "\t Repository:"; gs
