@@ -19,8 +19,8 @@ touch myfile.tmp
 git add .                       
     echo "-- git add"; echo "Stagin area:"; gsp
 
-git commit -m "m" > /dev/null   
+git commit -mq "m"   
     echo "-- git commit"; echo "Repository:" ; gs
-    
+
 git rm myfile.tmp > /dev/null   ; echo "git rm / Staging area:"         ; gsp
 git commit -m "m" > /dev/null   ; echo "git commit / Repository:"       ; gs
