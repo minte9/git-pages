@@ -25,10 +25,10 @@ git commit -m "m" > /dev/null
     echo "git commit"
     echo "Repository:"; gs
 
-git rm myfile.tmp
+git rm myfile.tmp > /dev/null 
     echo "git rm"
     echo "Staging area:"; gsp
 
-git commit -m "m"
+git commit -m "m" > /dev/null 
     echo "git commit"
     echo "Repository:"; gs
