@@ -1,25 +1,29 @@
 touch
+	 M main/aliases.sh
 	?? main/basics/reset/myfile.tmp
 
 write
+	 M main/aliases.sh
 	?? main/basics/reset/myfile.tmp
 
 git add + commit
 	On branch main
-	nothing to commit, working tree clean
-
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   ../../aliases.sh
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+		myfile.tmp
+	
+	no changes added to commit (use "git add" and/or "git commit -a")
 overwrite
-	 M main/basics/reset/myfile.tmp
+	 M main/aliases.sh
+	?? main/basics/reset/myfile.tmp
 
 write
-	 M main/basics/reset/myfile.tmp
+	 M main/aliases.sh
+	?? main/basics/reset/myfile.tmp
 
 git diff
-	diff --git a/main/basics/reset/myfile.tmp b/main/basics/reset/myfile.tmp
-	index f70f10e..90659bd 100644
-	--- a/main/basics/reset/myfile.tmp
-	+++ b/main/basics/reset/myfile.tmp
-	@@ -1 +1,2 @@
-	-A
-	+B
-	+C
