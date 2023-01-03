@@ -1,38 +1,27 @@
 touch
-	On branch main
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
-		a.txt
-	
-	nothing added to commit but untracked files present (use "git add" to track)
+	 M main/basics/reset/reset.sh
 
 git add
-	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
-	[main 384be2d] My commit
-	 1 file changed, 0 insertions(+), 0 deletions(-)
-	 create mode 100644 main/basics/reset/a.txt
+	[main e77c2f3] My commit
+	 1 file changed, 1 insertion(+), 1 deletion(-)
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	384be2d My commit
+	e77c2f3 My commit
 
 git last log
 	On branch main
 	nothing to commit, working tree clean
 
 Reset soft ~1
-	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
+	Unstaged changes after reset:
+	M	main/basics/reset/reset.sh
 
 Reset ~1
-	?? main/basics/reset/a.txt
-
-On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	a.txt
-
-nothing added to commit but untracked files present (use "git add" to track)
+	 M main/basics/reset/reset.sh
