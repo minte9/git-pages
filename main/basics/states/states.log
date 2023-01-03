@@ -1,10 +1,8 @@
 Working Tree:
-	 M main/basics/states/states.sh
 	?? main/basics/states/myfile.tmp
 git add
 Staging Area:
 	A  main/basics/states/myfile.tmp
-	M  main/basics/states/states.sh
 git commit
 Repository:
 	On branch main
