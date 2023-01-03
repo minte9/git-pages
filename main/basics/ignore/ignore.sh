@@ -25,7 +25,7 @@ git commit -qm 'm'
 git rm -q .gitignore
 git rm -q a.txt
 rm b.tmp 
-    echo "git rm a b .gitignore"
+    echo "git rm a .gitignore / rm b"
     echo "Repository:"; gsp
 
 git commit -aqm 'm'
