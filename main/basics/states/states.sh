@@ -21,7 +21,7 @@ git add .
     echo "-- git add"
     echo "Stagin area:"; gsp
 
-git commit -mq "m"   
+git commit -m "m"   
     echo "-- git commit"
     echo "Repository:" ; gs
 
@@ -29,5 +29,5 @@ git rm myfile.tmp
     echo "-- git rm"
     echo "Staging area:" ; gsp
 
-git commit -mq "m"
+git commit -m "m"
 echo "-- git commit / Repository:" ; gs
