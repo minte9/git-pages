@@ -1,8 +1,10 @@
 touch
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
 git add
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 
 git commit
@@ -10,20 +12,21 @@ git commit
 	nothing to commit, working tree clean
 
 git last log
-	a84c84e m
+	84f573f m
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
+	M  main/basics/reset/reset.sh
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
+	Unstaged changes after reset:
+	M	main/basics/reset/reset.sh
 
 Reset ~1
+	 M main/basics/reset/reset.sh
 	?? main/basics/reset/a.txt
 
-[main a84c84e] m
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 main/basics/reset/a.txt
 git commit
