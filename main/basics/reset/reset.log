@@ -1,20 +1,15 @@
 touch
-	 M main/basics/reset/reset.sh
-	?? main/basics/reset/a.txt
 
 git add
-	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
 
-	[main e6ca535] My commit
-	 2 files changed, 1 deletion(-)
-	 create mode 100644 main/basics/reset/a.txt
+	On branch main
+	nothing to commit, working tree clean
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	e6ca535 My commit
+	cfcb010 output.sh - update repo
 
 git last log
 	On branch main
@@ -22,13 +17,13 @@ git last log
 
 Reset soft ~1
 	A  main/basics/reset/a.txt
-	M  main/basics/reset/reset.sh
+	M  main/basics/reset/reset.log
 
 	Unstaged changes after reset:
-	M	main/basics/reset/reset.sh
+	M	main/basics/reset/reset.log
 
 Reset ~1
-	 M main/basics/reset/reset.sh
+	 M main/basics/reset/reset.log
 	?? main/basics/reset/a.txt
 
 On branch main
