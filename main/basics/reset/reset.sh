@@ -45,3 +45,4 @@ git commit -aqm 'm'
 
 git rm -f a.txt > /dev/null
     echo "git rm a.txt"
+    gs
