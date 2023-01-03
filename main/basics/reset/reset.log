@@ -1,32 +1,37 @@
 touch
 	On branch main
-	Changes not staged for commit:
-	  (use "git add <file>..." to update what will be committed)
-	  (use "git restore <file>..." to discard changes in working directory)
-		modified:   reset.sh
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+		a.txt
 	
-	no changes added to commit (use "git add" and/or "git commit -a")
+	nothing added to commit but untracked files present (use "git add" to track)
 
 git add
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 
-	[main fc213f2] My commit
-	 1 file changed, 1 insertion(+), 1 deletion(-)
+	[main 94b4b72] My commit
+	 1 file changed, 0 insertions(+), 0 deletions(-)
+	 create mode 100644 main/basics/reset/a.txt
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	fc213f2 My commit
+	94b4b72 My commit
 
 git last log
 	On branch main
 	nothing to commit, working tree clean
 
 Reset soft ~1
-	M  main/basics/reset/reset.sh
+	A  main/basics/reset/a.txt
 
-Unstaged changes after reset:
-M	main/basics/reset/reset.sh
 Reset ~1
-	 M main/basics/reset/reset.sh
+	?? main/basics/reset/a.txt
+
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
