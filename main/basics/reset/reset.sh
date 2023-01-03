@@ -44,4 +44,5 @@ git commit -aqm 'm'
     gs
 
 git rm -f a.txt > /dev/null
-    echo "git rm / clean"
+    echo "git rm"
+    echo "clean"
