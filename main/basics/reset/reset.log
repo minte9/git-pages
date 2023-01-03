@@ -4,7 +4,7 @@ touch
 git add
 	A  main/basics/reset/a.txt
 
-	[main 3095ed8] My commit
+	[main 1915427] My commit
 	 1 file changed, 0 insertions(+), 0 deletions(-)
 	 create mode 100644 main/basics/reset/a.txt
 
@@ -12,7 +12,7 @@ git commit
 	On branch main
 	nothing to commit, working tree clean
 
-	3095ed8 My commit
+	1915427 My commit
 
 git last log
 	On branch main
