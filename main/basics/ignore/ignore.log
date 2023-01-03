@@ -1,12 +1,10 @@
 touch
 Working tree:
-	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/a.txt
 	?? main/basics/ignore/b.tmp
 
 .gitignore
 Working tree:
-	 M main/basics/ignore/ignore.sh
 	?? main/basics/ignore/.gitignore
 	?? main/basics/ignore/a.txt
 
