@@ -13,14 +13,14 @@ git add .
     echo "git add"; gsp
 
 git restore --staged X 
-    echo "git restore --staged X "; gsp
+    echo "git restore X"; gsp
 
 git add .
 git commit -qm 'm'
     echo "git commit"; gs
 
 git reset HEAD^ Y 
-    echo "git reset HEAD^ Y"; gsp
+    echo "git reset Y"; gsp
 
 git add .
 git commit -qm 'm'
