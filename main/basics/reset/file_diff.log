@@ -1,6 +1,8 @@
 touch
+	 M main/basics/reset/file_diff.sh
 
 write
+	 M main/basics/reset/file_diff.sh
 	 M main/basics/reset/myfile.tmp
 
 git add + commit
@@ -8,18 +10,19 @@ git add + commit
 	Changes not staged for commit:
 	  (use "git add <file>..." to update what will be committed)
 	  (use "git restore <file>..." to discard changes in working directory)
+		modified:   file_diff.sh
 		modified:   myfile.tmp
 	
 	no changes added to commit (use "git add" and/or "git commit -a")
 overwrite
+	 M main/basics/reset/file_diff.sh
 	 M main/basics/reset/myfile.tmp
 
 write
+	 M main/basics/reset/file_diff.sh
 
 git diff
 
-On branch main
-nothing to commit, working tree clean
 git commit
 	On branch main
 	nothing to commit, working tree clean
