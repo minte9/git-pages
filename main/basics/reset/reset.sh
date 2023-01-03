@@ -7,9 +7,9 @@ Reset hard  / modifications are removed, but stored in gargage
 You can get the commit back as long as it was within a few days
 "
 
-alias gs="git status | sed 's/^/\t/'"
-alias gsp="git status --porcelain | sed 's/^/\t/'"
-alias tab2lines="sed 's/^/\t/'"
+alias gs="git status | sed 's/^/\t/'; echo"
+alias gsp="git status --porcelain | sed 's/^/\t/'; echo"
+alias tab2lines="sed 's/^/\t/'; echo"
 
 touch a.txt
     echo "touch"
