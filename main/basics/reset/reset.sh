@@ -19,8 +19,8 @@ git add .
     echo "git add"
     gsp
 
-git commit -am 'My commit' | tab2lines
     echo "git commit" 
+git commit -am 'My commit' | tab2lines
     gs
 
     echo "git last log"
