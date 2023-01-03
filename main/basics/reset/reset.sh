@@ -19,19 +19,18 @@ git add .
     echo "git add"
     gsp
 
-git commit -am 'm' | tab2lines
+git commit -aqm 'm' | tab2lines
     echo "git commit" 
     gs
 
     echo "git last log"
 git log -n 1 --oneline | tab2lines 
-    gs
 
 git reset --soft HEAD~1
     echo "Reset soft ~1"
     gsp
 
-git commit -am 'm'
+git commit -aqm 'm'
     echo "git commit"
     gs
 
