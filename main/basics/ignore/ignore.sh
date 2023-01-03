@@ -31,5 +31,5 @@ rm b.tmp
     echo "Repository:"; gsp
 
 git commit -aqm 'm'
-    echo "git commit"
+    echo "git commit -a"
     echo "Repository:"; gs
