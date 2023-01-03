@@ -15,6 +15,6 @@ alias gs="git status | sed 's/^/\t/'"
 
 touch myfile.tmp                ; echo "touch / Working tree:"        ; gs
 git add .                       ; echo "git add / Staging area:"    ; gs
-git commit -m "m"        ; echo "git commit / Repository:"     ; gs
+git commit -m "m" --quiet       ; echo "git commit / Repository:"     ; gsp
 git rm myfile.tmp > /dev/null   ; echo "git rm / Staging area:"       ; gs
 git commit -m "m" > /dev/null   ; echo "git commit / Repository:"     ; gs
