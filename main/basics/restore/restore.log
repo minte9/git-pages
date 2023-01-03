@@ -1,20 +1,23 @@
 touch
+	 M main/basics/restore/restore.sh
 	?? main/basics/restore/X
 	?? main/basics/restore/Y
 
 git add
 	A  main/basics/restore/X
 	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 
-git restore --staged X 
+git restore X
 	A  main/basics/restore/Y
+	M  main/basics/restore/restore.sh
 	?? main/basics/restore/X
 
 git commit
 	On branch main
 	nothing to commit, working tree clean
 
-git reset HEAD^ Y
+git reset Y
 	D  main/basics/restore/Y
 	?? main/basics/restore/Y
 
